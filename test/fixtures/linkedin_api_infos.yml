@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  applicationName: MyString
+  apiKey: MyString
+  secretKey: MyString
+
+two:
+  applicationName: MyString
+  apiKey: MyString
+  secretKey: MyString

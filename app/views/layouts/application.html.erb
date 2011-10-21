@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevelopMen - Besoin d'un super éééheros pour vos projets T.I.</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag "jquery-1.6.3", "jquery.infinitecarousel", "home", "bootstrap-alerts", "bootstrap-twipsy", "bootstrap-dropdown", "bootstrap-scrollspy" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div class="container">
+	<%= render "shared/header" %>	
+	<%= yield %>
+	<%= render "shared/footer" %>
+
+
+</div>
+</body>
+</html>

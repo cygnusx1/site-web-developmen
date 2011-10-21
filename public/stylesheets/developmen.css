@@ -1,0 +1,356 @@
+
+
+/************************ SPLASH SCREEN  ***************************/
+
+#splash_img_logo {
+	background-image: url('/images/splash_logo.png');
+	height: 560px;
+}
+#splash_img_logo:hover {
+	background-image: url('/images/splash_logo-hover.png');
+	height: 560px;
+}
+
+/************************ HEADER  ***************************/
+#header-index {
+	height: 100px;
+}
+
+#header{
+	
+	height: 250px;
+	margin-top : -15px;
+}
+#header_img {
+	width: 940px;
+	height: 250px;
+}
+
+#header_nav{
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+}
+
+#home{
+	height: 30px;
+	color: #fff;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	padding-top: 5px;
+}
+/*
+#mission{
+	height: 30px;
+	color: #fff;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	padding-top: 5px;
+	
+}
+*/
+#contact{
+	height: 30px;
+	color: #fff;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	padding-top: 5px;
+
+}
+#services{
+	height: 30px;
+	color: #fff;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	padding-top: 5px;
+
+}
+
+#logo{
+	top: -32px;
+	left: -10px;
+	position: relative;
+}
+
+/************************ FOOTER  ***************************/
+#footer_img {
+	width: 100%;
+	height: 200px;
+}
+
+
+/************************ CAROUSEL  ***************************/
+#carousel ul {
+	list-style: none;
+	width:940px;
+	margin: 0;
+	padding: 0;
+	position:relative;
+}
+
+#carousel li {
+	display:inline;
+	float:left;
+}
+
+#carousel_container{
+    
+    background-color: #000000;
+    border: 3px solid;
+    position: absolute;
+    top: 300px;
+    width: 940px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+    -moz-border-radius: 6px 6px 0 0;
+
+}
+
+.textholder {
+	text-align: left;
+	font-size: small;
+	padding: 6px;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+}
+
+/************************ GENERAL  ***************************/
+
+body {
+	display: block;
+	background-color :black;
+	padding: 0px;
+	margin: 0px;
+}
+
+.content_text{
+	height: 630px;
+	margin: 5px;
+	padding: 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+
+}
+
+li{
+	list-style-type: none;
+}
+
+/************************ CONTACT  ***************************/
+
+.content_contact {
+	background-color: #22222b;
+    border: 2px solid #FFFFFF;
+    color: #000333;
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 300px;
+    margin: 1px;
+    padding: 0;
+}
+.content_contact_perso {
+	
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 650px;
+    margin: 1px;
+    padding: 0;
+    -webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    
+}
+.info_perso {
+	margin: 10px;
+	font-family: Verdana;
+	font-size: x-small;
+}
+
+.header_contact_name{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content_contact_info {
+	background-color: #dddaaa;
+    color: #000333;
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 600px;
+    top: 10px;
+    margin: 1px;
+    padding: 0;
+    -webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    overflow: scroll;
+
+}
+
+.suemary_border{
+    border: 8px solid #55233b;
+	
+}
+.benoit_border{
+    border: 8px solid #2d4957;
+	
+}
+.stephane_border{
+    border: 8px solid #242444;
+	
+}
+.sylvain_border{
+    border: 8px solid #3b4069;
+	
+}
+
+
+.main_panel_benoit {
+	background-image: url('/images/benoit_contact.png');
+	    -webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    top: -70px;
+
+}
+.main_panel_stephane {
+	background-image: url('/images/stephane_contact.png');
+	    -webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    top: -70px;
+
+}
+.main_panel_sue_mary {
+	background-image: url('/images/sue-mary_contact.png');
+	    -webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    top: -70px;
+
+}
+.main_panel_sylvain {
+	background-image: url('/images/sylvain_contact.png');
+	    -webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    top: -70px;
+
+}
+
+.benoit{
+	background-image: url('/images/benoit_contact_thumb.png');
+	
+}
+.benoit:hover{
+	background-image: url('/images/benoit_contact_thumb_over.png');
+	
+}
+.sue{
+	background-image: url('/images/sue-mary_contact_thumb.png');
+}
+.sue:hover{
+	background-image: url('/images/sue-mary_contact_thumb_over.png');
+	
+}
+
+.stephane {
+	background-image: url('/images/stephane_contact_thumb.png');
+}
+
+.stephane:hover {
+	background-image: url('/images/stephane_contact_thumb_over.png');
+}
+
+.sylvain {
+	background-image: url('/images/sylvain_contact_thumb.png');
+}
+
+.sylvain:hover {
+	background-image: url('/images/sylvain_contact_thumb_over.png');
+}
+
+.content_text_right{
+	color: #bbb;
+	height: 600px;
+	background-color: #762f0A;
+	border: solid 4px #FFF;
+	margin: 5px;
+	padding: 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	overflow: scroll;
+	
+
+}
+
+.logo_linkedin{
+	margin-left: 384px;
+}
+.linkedin_title {
+	font-family: "Arial Black";
+	text-decoration: underline;
+	font-size: medium;
+}
+.linkedin_subtitle {
+	font-family: "Arial Black";
+	text-decoration: underline;
+	font-size: x-small;
+}
+
+/************************ MISSION  ***************************/
+
+.content_mission_info {
+
+
+	background-color: #191919;
+    height: 450px;
+    -webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border: solid 4px #000;
+    top: 248px;
+    position: relative;
+    
+
+
+}
+
+.content_mission_text{
+    padding: 10px;
+    color: #999999;
+	
+}
+
+.content_mission {
+	background-image: url('/images/hero_in_city.png');
+	background-repeat: no-repeat;
+	background-color: #FFF;
+    height: 800px;
+    -webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border: solid 1px #fff
+
+
+}

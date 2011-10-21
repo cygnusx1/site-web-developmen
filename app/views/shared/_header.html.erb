@@ -1,0 +1,72 @@
+	<!-- HEADER  Ben-->
+
+	<div id="header" class="span16">
+
+  <div class="topbar-wrapper" style="z-index: 5;">
+    <div class="topbar" data-dropdown="dropdown" data-scrollspy="scrollspy">
+      <div class="topbar-inner">
+        <div class="container">
+          <ul class="nav">
+	        <li><%=image_tag("Logo-HiRes.png", :width=>"40px", :height=>"37px")%></li>
+            <li class="active"><%= link_to "Accueil", :controller=>"home" %></li>
+            <li><%= link_to "Mission", :controller=>"mission" %></li>
+            <li></li>
+            <li><a href="#">Services</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle">Contact</a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "Tous", :controller=>"contact"%></li>
+                <li class="divider"></li>
+
+                <li><%= link_to "Benoit", :controller=>"contact", :action=>"benoit"%></li>
+                <li><%= link_to "Stephane", :controller=>"contact", :action=>"stephane"%></li>
+                <li><%= link_to "Sylvain", :controller=>"contact", :action=>"sylvain"%></li>
+                <li><%= link_to "Sue-Mary", :controller=>"contact", :action=>"suemary"%></li>
+                <li><%= link_to "Regis", :controller=>"contact", :action=>"benoit"%></li>
+                <li><%= link_to "Frederic", :controller=>"contact", :action=>"benoit"%></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="pull-left" action="">
+            <input type="text" placeholder="Search" />
+          </form>
+        </div>
+      </div><!-- /topbar-inner -->
+    </div><!-- /topbar -->
+  </div><!-- /topbar-wrapper -->
+
+
+
+
+
+
+
+
+
+
+<!--		<div class="row">
+			<div id="header_nav" class="span16">
+				<div id="logo" class="span2"><%=image_tag("Logo-HiRes.png", :width=>"100px", :height=>"100px")%></div>
+				<div id="home" class="span3"><%= link_to "Accueil", :controller=>"home" %></div>
+				<div id="mission" class="span3"><%= link_to "Mission", :controller=>"mission" %></div>
+				<div id="contact" class="span3"><%= link_to "Contact", :controller=>"contact"%></div>
+				<div id="services" class="span3">Services</div>
+				
+			</div>
+		</div>
+	-->
+		<!-- 
+			----------------------------------------------
+			Include the carrousel only in the home page.
+			Remove the if to see it in each page
+			----------------------------------------------
+		-->
+
+		<% if current_page?(:controller=>"home") %>
+			<div class="row">
+				<div id="carousel_container" class="span16"><%= render "carousel" %></div>>
+			</div>
+		<% end %>	
+		<%= image_tag("header_01.jpg", :id=>"header_img") %>
+	</div>
+
