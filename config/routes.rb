@@ -7,6 +7,8 @@ Trunk::Application.routes.draw do
   match 'contact/benoit' => 'contact#benoit'
   match 'contact/stephane' => 'contact#stephane'
   match 'contact/suemary' => 'contact#suemary'
+  match 'contact/regis' => 'contact#regis'
+  match 'contact/fred' => 'contact#fred'
   
   match 'contact/callback' => 'contact#callback'
   match 'contact/auth' => 'contact#auth'

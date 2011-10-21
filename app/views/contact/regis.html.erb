@@ -1,0 +1,22 @@
+  <%= javascript_include_tag "contact" %>
+	<div class="span16 main_panel allregis">
+		<div class="span8 content_contact_perso"></div>
+		<div class="span8 content_contact_info regis_border">
+				<%if flash[:notice]%>
+					
+					<div class="alert-message warning fade in" data-alert="alert">
+						<a class="close" href="#">×</a>
+						<p>
+							<span class="label important">Problem!</span>
+							<%=flash[:notice]%>
+						</p>
+					</div>
+					
+				<%end%>
+
+			<p id="benoit" class="info_perso" >
+				<%=image_tag("spinner-small.gif")%>
+			</p>
+
+		</div>			
+	</div>

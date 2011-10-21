@@ -24,6 +24,10 @@ class ContactController < ApplicationController
     
   end
   
+  def regis
+    
+  end
+  
   def ajax_contact
     @name = params[:name]
     linkedinInfo = LinkedinApiInfo.find(1)

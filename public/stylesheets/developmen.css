@@ -211,59 +211,57 @@ li{
     border: 8px solid #3b4069;
 	
 }
+.regis_border{
+    border: 8px solid #3b4069;
+	
+}
 
 
-.main_panel_benoit {
+.main_panel {
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    top: -70px;
+	
+}
+
+.allbenoit {
 	background-image: url('/images/benoit_contact.png');
-	    -webkit-border-top-left-radius: 10px;
-	-webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-	-webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    top: -70px;
 
 }
-.main_panel_stephane {
+.allstephane {
 	background-image: url('/images/stephane_contact.png');
-	    -webkit-border-top-left-radius: 10px;
-	-webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-	-webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    top: -70px;
 
 }
-.main_panel_sue_mary {
+.allsue_mary {
 	background-image: url('/images/sue-mary_contact.png');
-	    -webkit-border-top-left-radius: 10px;
-	-webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-	-webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    top: -70px;
 
 }
-.main_panel_sylvain {
+.allsylvain {
 	background-image: url('/images/sylvain_contact.png');
-	    -webkit-border-top-left-radius: 10px;
-	-webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-	-webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    top: -70px;
-
 }
+
 
 .benoit{
-	background-image: url('/images/benoit_contact_thumb.png');
+	background-image: url('/images/benoit_contact_thumb.jpg');
 	
 }
 .benoit:hover{
-	background-image: url('/images/benoit_contact_thumb_over.png');
+	background-image: url('/images/benoit_contact_thumb_over.jpg');
+	
+}
+.regis{
+	background-image: url('/images/regis_contact_thumb.jpg');
+	
+}
+.regis:hover{
+	background-image: url('/images/regis_contact_thumb_over.jpg');
 	
 }
 .sue{
-	background-image: url('/images/sue-mary_contact_thumb.png');
+	background-image: url('/images/sue-mary_contact_thumb.jpg');
 }
 .sue:hover{
 	background-image: url('/images/sue-mary_contact_thumb_over.png');
@@ -271,7 +269,7 @@ li{
 }
 
 .stephane {
-	background-image: url('/images/stephane_contact_thumb.png');
+	background-image: url('/images/stephane_contact_thumb.jpg');
 }
 
 .stephane:hover {
@@ -279,11 +277,18 @@ li{
 }
 
 .sylvain {
-	background-image: url('/images/sylvain_contact_thumb.png');
+	background-image: url('/images/sylvain_contact_thumb.jpg');
 }
 
 .sylvain:hover {
 	background-image: url('/images/sylvain_contact_thumb_over.png');
+}
+.fred {
+	background-image: url('/images/fred_contact_thumb.jpg');
+}
+
+.fred:hover {
+	background-image: url('/images/fred_contact_thumb_over.jpg');
 }
 
 .content_text_right{
