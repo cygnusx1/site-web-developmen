@@ -7,11 +7,10 @@ gem 'rails', '3.0.0'
 
 gem 'mysql2', '0.2.3'
 gem 'linkedin'
- gem 'capistrano'
+gem 'capistrano'
 
 # gem 'ruby-debug'
-gem 'mongrel', '>= 1.2.0.pre2'
-
+gem 'heroku'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
