@@ -3,9 +3,7 @@
 
 <%if !@profile.nil?%>
 
-	<% if !@profile.picture_url.nil? %>
-		<%= image_tag(@profile.picture_url) %><br />
-	<% end %>
+	<%= image_tag(@profile.picture_url) if !@profile.picture_url.nil? %><br />
 	<strong><%=@profile.first_name %> <%=@profile.last_name %><br></strong>
 	<%=@profile.headline%><br> 
 	<%=@profile.industry%><br> <br/>
