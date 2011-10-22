@@ -6,7 +6,7 @@ class ContactController < ApplicationController
 
   def index
     
-        flash[:tip] = 'Si vous nous connaissez vraiment, essayez de trouver la vrai personne deriere le personnage ;-)'
+        flash[:tip] = I18n.t(:message_contact)
 
   end
   
@@ -51,8 +51,9 @@ class ContactController < ApplicationController
     end
       render :layout=>false
 
-  rescue SocketError
-    flash[:notice]= "Unable to connect"
+  rescue SocketError, LinkedIn::Errors::NotFoundError 
+
+    flash[:notice]= "Probleme avec LinkedIn"
     render :layout=>false
  
     
