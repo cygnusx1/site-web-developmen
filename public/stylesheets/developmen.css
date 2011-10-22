@@ -212,7 +212,11 @@ li{
 	
 }
 .regis_border{
-    border: 8px solid #3b4069;
+    border: 8px solid #14293a;
+	
+}
+.fred_border{
+    border: 8px solid #4a4047;
 	
 }
 
@@ -241,6 +245,13 @@ li{
 }
 .allsylvain {
 	background-image: url('/images/sylvain_contact.png');
+}
+
+.allregis {
+	background-image: url('/images/regis_contact.jpg');
+}
+.allfred {
+	background-image: url('/images/fred_contact.jpg');
 }
 
 

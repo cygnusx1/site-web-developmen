@@ -30,6 +30,7 @@ class ContactController < ApplicationController
   
   def ajax_contact
     @name = params[:name]
+    puts @name
     linkedinInfo = LinkedinApiInfo.find(1)
     linkedinCred = LinkedinCredential.find_by_name(@name)
     if !linkedinCred.nil?
