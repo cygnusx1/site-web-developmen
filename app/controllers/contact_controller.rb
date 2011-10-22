@@ -5,6 +5,9 @@ class ContactController < ApplicationController
 
 
   def index
+    
+        flash[:tip] = 'Si vous nous connaissez vraiment, essayez de trouver la vrai personne deriere le personnage ;-)'
+
   end
   
 

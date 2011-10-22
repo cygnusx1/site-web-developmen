@@ -1,6 +1,19 @@
 
 
+
 	<div class="span16">
+	<%if flash[:tip]%>
+		
+		<div class="alert-message warning fade in" data-alert="alert">
+			<a class="close" href="#">×</a>
+			<p>
+				<span class="label important">Petit Jeux</span>
+				<%=flash[:tip]%>
+			</p>
+		</div>
+		
+	<%end%>
+		
 		<div class="row">
 			<div class="span1">&nbsp;</div>
 			<a href="/contact/suemary"><div class="span5 content_contact sue "></div></a>	
