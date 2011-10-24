@@ -23,7 +23,7 @@ class ContactController < ApplicationController
     
   end
   
-  def suemary
+  def suemarie
     
   end
   

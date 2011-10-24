@@ -6,7 +6,7 @@ Trunk::Application.routes.draw do
   match 'contact/sylvain' => 'contact#sylvain'
   match 'contact/benoit' => 'contact#benoit'
   match 'contact/stephane' => 'contact#stephane'
-  match 'contact/suemary' => 'contact#suemary'
+  match 'contact/suemarie' => 'contact#suemarie'
   match 'contact/regis' => 'contact#regis'
   match 'contact/fred' => 'contact#fred'
   
