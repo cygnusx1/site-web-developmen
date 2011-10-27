@@ -24,11 +24,3 @@ test:
   host: 127.0.0.1
   
 production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: consult0_dmentest
-  pool: 10
-  username: consult0_admin
-  password: benoitcampeau1
-  host: localhost
