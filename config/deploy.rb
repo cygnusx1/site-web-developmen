@@ -1,4 +1,3 @@
-
 set :default_environment, {
 'PATH' => "/usr/local/rvm/gems/ruby-1.9.2-p0/bin:/usr/local/rvm/bin:/usr/local/rvm/ruby-1.9.2-p0/bin:$PATH:~/.gems",
 'BUNDLER_PATH' => "/home//.gems",
@@ -13,8 +12,6 @@ set :repository,  "http://svn.consultationbelogic.com/svn/developmenweb/trunk"
 set :domain, "www.consultationbelogic.com"     # The URL for your app
 set :user, "consult0"                          # Your HostingRails username
 
-set :svn_username, "ben"
-set :svn_password, "aa2008aa"
 
 set :scm, :subversion
 set :use_sudo, false                                # HostingRails users don't have sudo access
