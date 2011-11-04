@@ -1,0 +1,22 @@
+
+/************************ SPLASH SCREEN  ***************************/
+
+#splash_img_logo {
+	background-image: url('/images/splash_logo.png');
+	height: 560px;
+	background-repeat: no-repeat;
+}
+#splash_img_logo:hover {
+	background-image: url('/images/splash_logo-hover.png');
+	height: 560px;
+	background-repeat: no-repeat;
+	
+}
+
+
+body {
+	display: block;
+	background-color :black;
+	padding: 0px;
+	margin: 0px;
+}

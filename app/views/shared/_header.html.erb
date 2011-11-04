@@ -1,6 +1,6 @@
 	<!-- HEADER  Ben-->
 
-	<div id="header" class="span16">
+	<div id="header">
 
   <div class="topbar-wrapper" style="z-index: 5;">
     <div class="topbar" data-dropdown="dropdown" data-scrollspy="scrollspy">
@@ -35,38 +35,5 @@
     </div><!-- /topbar -->
   </div><!-- /topbar-wrapper -->
 
-
-
-
-
-
-
-
-
-
-<!--		<div class="row">
-			<div id="header_nav" class="span16">
-				<div id="logo" class="span2"><%=image_tag("Logo-HiRes.png", :width=>"100px", :height=>"100px")%></div>
-				<div id="home" class="span3"><%= link_to "Accueil", :controller=>"home" %></div>
-				<div id="mission" class="span3"><%= link_to "Mission", :controller=>"mission" %></div>
-				<div id="contact" class="span3"><%= link_to "Contact", :controller=>"contact"%></div>
-				<div id="services" class="span3">Services</div>
-				
-			</div>
-		</div>
-	-->
-		<!-- 
-			----------------------------------------------
-			Include the carrousel only in the home page.
-			Remove the if to see it in each page
-			----------------------------------------------
-		-->
-
-		<% if current_page?(:controller=>"home") %>
-			<div class="row">
-				<div id="carousel_container" class="span16"><%= render "carousel" %></div>>
-			</div>
-		<% end %>	
-		<%= image_tag("header_01.jpg", :id=>"header_img") %>
-	</div>
+</div>
 
