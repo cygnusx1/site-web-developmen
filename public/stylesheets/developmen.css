@@ -14,7 +14,7 @@
 	background: -ms-linear-gradient(top, #2d2d2d 31%,#404040 61%,#404040 62%,#494949 100%);
 	background: linear-gradient(top, #2d2d2d 31%,#404040 61%,#404040 62%,#494949 100%);
 	filter: progid :DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#494949',GradientType=0 );
-	position: fixed;
+	position: relative;
 	overflow: visible;
 	right: 0;
 	left: 0;
@@ -73,10 +73,23 @@
 	height: 200px;
 	background-color: #000;
 	position: relative;
-	top: 225px;
+	right : 0;
+	left:0;
+	bottom: 0;
+
 }
 
 .news{
+	background-color: #fff;
+	height: 150px;
+	
+}
+.about{
+	background-color: #fff;
+	height: 150px;
+	
+}
+.social{
 	background-color: #fff;
 	height: 150px;
 	
@@ -117,8 +130,9 @@
 .main{
 	display: block;
 	position: relative;
-	top: 222px;
 	background-color: #BBBBBB;
+	padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 

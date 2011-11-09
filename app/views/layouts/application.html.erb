@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>DevelopMen - Besoin d'un super heros pour vos projets T.I.</title>
-  <%= stylesheet_link_tag "developmen", "bootstrap.min", :cache => false%>
-  <%= javascript_include_tag "jquery-1.6.3", "jquery.infinitecarousel", "home", "bootstrap-alerts", "bootstrap-twipsy", "bootstrap-dropdown", "bootstrap-scrollspy" %>
-  <%= csrf_meta_tag %>
-</head>
-<body>
-<div class="container">
-	<%= render "shared/header" %>	
-		<div class="main row show-grid">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>DevelopMen - Besoin d'un super heros pour vos projets T.I.</title>
+		<%= stylesheet_link_tag "developmen", "bootstrap.min", :cache => false%>
+		<%= javascript_include_tag "jquery-1.6.3", "jquery.infinitecarousel", "home", "bootstrap-alerts", "bootstrap-twipsy", "bootstrap-dropdown", "bootstrap-scrollspy" %>
+		<%= csrf_meta_tag %>
+	</head>
+	<body>
+		<%= render "shared/header" %>
+		<div class="container">
+			<div class="main row show-grid">
 				<%= yield %>
+			</div>
 		</div>
-	<div class="row footer">	
-		<%= render "shared/footer" %>
-	</div>
-
-</div>
-</body>
+		<div class="footer">
+			<%= render "shared/footer" %>
+		</div>
+	</body>
 </html>

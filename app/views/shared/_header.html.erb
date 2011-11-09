@@ -1,39 +1,56 @@
-	<!-- HEADER  Ben-->
-
-	<div id="header">
-
-  <div class="topbar-wrapper" style="z-index: 5;">
-    <div class="topbar" data-dropdown="dropdown" data-scrollspy="scrollspy">
-      <div class="topbar-inner">
-        <div class="container">
-          <ul class="nav">
-	        <li><%=image_tag("Logo-HiRes.png", :width=>"40px", :height=>"37px")%></li>
-            <li><%= link_to "Accueil", :controller=>"home" %></li>
-            <li><%= link_to "Mission", :controller=>"mission" %></li>
-            <li></li>
-            <li><a href="#">Services</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle">Contact</a>
-              <ul class="dropdown-menu">
-                <li><%= link_to "Tous", :controller=>"contact"%></li>
-                <li class="divider"></li>
-
-                <li><%= link_to "Benoit", "/contact/benoit"%></li>
-                <li><%= link_to "Stephane", "/contact/stephane"%></li>
-                <li><%= link_to "Sylvain", "/contact/sylvain"%></li>
-                <li><%= link_to "Sue-Marie", "/contact/suemarie"%></li>
-                <li><%= link_to "Régis", "/contact/regis"%></li>
-                <li><%= link_to "Frederic", "/contact/fred"%></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="pull-left" action="">
-            <input type="text" placeholder="Search" />
-          </form>
-        </div>
-      </div><!-- /topbar-inner -->
-    </div><!-- /topbar -->
-  </div><!-- /topbar-wrapper -->
-
+<!-- HEADER  Ben-->
+<div id="header">
+	<div class="topbar-wrapper" style="z-index: 5;">
+		<div class="topbar" data-dropdown="dropdown" data-scrollspy="scrollspy">
+			<div class="topbar-inner">
+				<div class="container">
+					<ul class="nav">
+						<li>
+							<%= image_tag("Logo-HiRes.png", :width=>"40px", :height=>"37px")%>
+						</li>
+						<li>
+							<%= link_to "Accueil", :controller=>"home" %>
+						</li>
+						<li>
+							<%= link_to "Mission", :controller=>"mission" %>
+						</li>
+						<li></li>
+						<li>
+							<a href="#">Services</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle">Contact</a>
+							<ul class="dropdown-menu">
+								<li>
+									<%= link_to "Tous", :controller=>"contact"%>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<%= link_to "Benoit", "/contact/benoit"%>
+								</li>
+								<li>
+									<%= link_to "Stephane", "/contact/stephane"%>
+								</li>
+								<li>
+									<%= link_to "Sylvain", "/contact/sylvain"%>
+								</li>
+								<li>
+									<%= link_to "Sue-Marie", "/contact/suemarie"%>
+								</li>
+								<li>
+									<%= link_to "Régis", "/contact/regis"%>
+								</li>
+								<li>
+									<%= link_to "Frederic", "/contact/fred"%>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="pull-left" action="">
+						<input type="text" placeholder="Search" />
+					</form>
+				</div>
+			</div><!-- /topbar-inner -->
+		</div><!-- /topbar -->
+	</div><!-- /topbar-wrapper -->
 </div>
-
