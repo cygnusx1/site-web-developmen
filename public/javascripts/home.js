@@ -2,7 +2,7 @@
  	
         $('#carousel').infiniteCarousel({ 
         	transitionSpeed : 600,
-			displayTime : 4000,
+			displayTime : 6000,
 			textholderHeight : .15,
 			displayProgressBar : 0,
 			displayThumbnailNumbers : 0,
