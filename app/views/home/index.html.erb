@@ -12,44 +12,19 @@ Remove the if to see it in each page
 <div class="span6">
 	<div class="maincontent_text">
 		<h4>Derniers mandats</h4>
+		<% @mandat.each do |m|%>
 		<ul>
 			<li>
-				<span class="label important">Développeur Java Sénior</span>
+				<span class="label important"><%= m.title%></span>
 			</li>
 			<p>
-				Le candidat devra posséder une forte expérience sur la plateforme J2EE
+				<%= m.description %>
 			</p>
 			<p>
-				6 mois - possiblilité de renouvellement.
-			</p>
-			<li>
-				<span class="label important">Analyste d'affaire - secteur bancaire</span>
-			</li>
-			<p>
-				Le candidat devra produire les cas d'utilisation et les modeles UML.
-			</p>
-			<p>
-				6 mois - possiblilité de renouvellement.
-			</p>
-			<li>
-				<span class="label important">Développeur Java Sénior</span>
-			</li>
-			<p>
-				Le candidat devra posséder une forte expérience sur la plateforme J2EE
-			</p>
-			<p>
-				6 mois - possiblilité de renouvellement.
-			</p>
-			<li>
-				<span class="label important">Développeur Java Sénior</span>
-			</li>
-			<p>
-				Le candidat devra posséder une forte expérience sur la plateforme J2EE
-			</p>
-			<p>
-				6 mois - possiblilité de renouvellement.
+				<%= m.duree %><%= " - possiblilité de renouvellement." if m.renew? %>
 			</p>
 		</ul>
+		<%end%>
 		<%= link_to "Tous les mandats", "#"%>
 	</div>
 </div>

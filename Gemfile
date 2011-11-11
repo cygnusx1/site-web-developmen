@@ -9,6 +9,7 @@ gem 'mysql2', '0.2.3'
 gem 'linkedin'
 gem 'capistrano'
 
+gem 'activeadmin'
 # gem 'ruby-debug'
 gem 'heroku'
 gem 'taps'

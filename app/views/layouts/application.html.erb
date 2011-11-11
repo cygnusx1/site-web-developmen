@@ -10,6 +10,12 @@
 	<body>
 		<%= render "shared/header" %>
 		<div class="container">
+			<p class="notice">
+				<%= notice %>
+			</p>
+			<p class="alert">
+				<%= alert %>
+			</p>
 			<div class="main row show-grid">
 				<%= yield %>
 			</div>

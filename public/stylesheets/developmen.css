@@ -195,6 +195,14 @@ p {
 }
 /************************ CONTACT  ***************************/
 
+.equipe {
+	margin-top: 20px;
+}
+
+.text_right {
+	margin-left: 3px;
+	margin-right: 20px;
+}
 .text_contact {
 	padding: 10px;
 }
@@ -296,40 +304,40 @@ p {
 .allfred {
 	background-image: url('/images/fred_contact.jpg');
 }
-.benoit {
+/*.benoit {
 	background-image: url('/images/benoit_contact_thumb.jpg');
-}
-.benoit:hover {
+}*/
+.benoit {
 	background-image: url('/images/benoit_contact_thumb_over.jpg');
 }
-.regis {
+/*.regis {
 	background-image: url('/images/regis_contact_thumb.jpg');
-}
-.regis:hover {
+}*/
+.regis {
 	background-image: url('/images/regis_contact_thumb_over.jpg');
 }
-.sue {
+/*.sue {
 	background-image: url('/images/sue-mary_contact_thumb.jpg');
-}
-.sue:hover {
+}*/
+.sue {
 	background-image: url('/images/sue-mary_contact_thumb_over.png');
 }
-.stephane {
+/*.stephane {
 	background-image: url('/images/stephane_contact_thumb.jpg');
-}
-.stephane:hover {
+}*/
+.stephane {
 	background-image: url('/images/stephane_contact_thumb_over.png');
 }
-.sylvain {
+/*.sylvain {
 	background-image: url('/images/sylvain_contact_thumb.jpg');
-}
-.sylvain:hover {
+}*/
+.sylvain {
 	background-image: url('/images/sylvain_contact_thumb_over.png');
 }
-.fred {
+/*.fred {
 	background-image: url('/images/fred_contact_thumb.jpg');
-}
-.fred:hover {
+}*/
+.fred {
 	background-image: url('/images/fred_contact_thumb_over.jpg');
 }
 .content_text_right {
@@ -363,6 +371,7 @@ p {
 	width: 97%;
 	margin-left: auto;
 	margin-right: auto;
+	display: block;
 }
 .content_mission_info {
 

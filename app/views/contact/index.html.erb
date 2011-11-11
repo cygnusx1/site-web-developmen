@@ -1,69 +1,229 @@
+<!-- 	<%if flash[:tip]%>
+<div class="alert-message warning fade in" data-alert="alert">
+<a class="close" href="#">×</a>
+<p>
+<span class="label important">Petit Jeux</span>
+<%= flash[:tip]%>
+</p>
+</div>
+<%end%> -->
 <div class="span16">
-	<%if flash[:tip]%>
-	<div class="alert-message warning fade in" data-alert="alert">
-		<a class="close" href="#">×</a>
-		<p>
-			<span class="label important">Petit Jeux</span>
-			<%= flash[:tip]%>
-		</p>
-	</div>
-	<%end%>
-	<div class="row" style="margin-bottom: 10px">
-		<div class="span1">
-			&nbsp;
-		</div>
-		<a href="/contact/suemarie"><div class="span5 content_contact sue "></div></a>
-		<div class="span10 box_text_contact">
-			<div class="text_contact">
-				<h2>Sue-Marie Garceau</h2>
-				<h4>Vice-présidente service conseil</h4>
-				scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree
+	<!-- BENOIT -->
+	<div class="row equipe">
+		<div class="panel_section">
+			<a href="/contact/benoit"><div class="span5 content_contact benoit "></div></a>
+			<div class="span10">
+				<div class="box_text_contact">
+					<div class="text_contact">
+						<h2>Benoit Campeau</h2>
+						<h4>Associé principal</h4>
+						<p>
+							Benoit possède une expertise dans la conception et le développement web.
+						</p>
+						<p>
+							<a href="mailto:benoit@developmen.ca">benoit@developmen.ca</a>
+						</p>
+						<p>
+							Tel: 514.500.2255 ext:225
+						</p>
+						<p style="text-align: right">
+							<%= link_to "détails", 'contact/benoit'%>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="span1">
-			&nbsp;
+	<!--  FRED  -->
+	<div class="row equipe">
+		<div class="panel_section">
+			<div class="span10 text_right">
+				<div class="box_text_contact">
+					<div class="text_contact">
+						<h2>Frédéric Lalonde</h2>
+						<h4>Associé principal</h4>
+						<p>
+							Frédéric possède une expertise dans les produits IBM
+						</p>
+						<p>
+							<a href="mailto:frederic@developmen.ca">frederic@developmen.ca</a>
+						</p>
+						<p>
+							Tel: 514.500.2255 ext:226
+						</p>
+						<p style="text-align: right">
+							<%= link_to "détails", 'contact/fred'%>
+						</p>
+					</div>
+				</div>
+			</div>
+			<a href="/contact/fred"><div class="span5 content_contact fred"></div></a>
 		</div>
-		<div class="span10 box_text_contact">
-			<div class="text_contact">
-				<h2>Sue-Marie Garceau</h2>
-				<h4>Vice-présidente service conseil</h4>
-				scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree
+	</div>
+	<!-- REGIS-->
+	<div class="row equipe">
+		<div class="panel_section">
+			<a href="/contact/regis"><div class="span5 content_contact regis "></div></a>
+			<div class="span10">
+				<div class="box_text_contact">
+					<div class="text_contact">
+						<h2>Régis Brochu</h2>
+						<h4>Trésorié</h4>
+						<p>
+							Régis possède une expertise dans l'analyse, la conception et le développement web
+						</p>
+						<p>
+							<a href="mailto:regis@developmen.ca">regis@developmen.ca</a>
+						</p>
+						<p>
+							Tel: 514.500.2255 ext:224
+						</p>
+						<p style="text-align: right">
+							<%= link_to "détails", 'contact/regis'%>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<a href="/contact/benoit"><div class="span5 content_contact benoit"></div></a>
 	</div>
-	<div class="row">
-		<div class="span1">
-			&nbsp;
+	<!-- STEPHANE-->
+	<div class="row equipe">
+		<div class="panel_section">
+			<div class="span10 text_right">
+				<div class="box_text_contact">
+					<div class="text_contact">
+						<h2>Stéphane Desjardins</h2>
+						<h4>Président</h4>
+						<p>
+							Stéphane possède une expertise dans l'architecture de solution.
+						</p>
+						<p>
+							<a href="mailto:stephane@developmen.ca">stephane@developmen.ca</a>
+						</p>
+						<p>
+							Tel: 514.500.2255 ext:222
+						</p>
+						<p style="text-align: right">
+							<%= link_to "détails", 'contact/stephane'%>
+						</p>
+					</div>
+				</div>
+			</div>
+			<a href="/contact/stephane"><div class="span5 content_contact stephane "></div></a>
 		</div>
-		<a href="/contact/sylvain"><div class="span5 content_contact sylvain "></div></a>
-		<div class="span10 box_text_contact">
-			<div class="text_contact">
-				<h2>Sue-Marie Garceau</h2>
-				<h4>Vice-présidente service conseil</h4>
-				scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree
+	</div>
+	<!-- SUE-->
+	<div class="row equipe">
+		<div class="panel_section">
+			<a href="/contact/suemarie"><div class="span5 content_contact sue "></div></a>
+			<div class="span10">
+				<div class="box_text_contact">
+					<div class="text_contact">
+						<h2>Sue-Marie Garceau</h2>
+						<h4>Vice-présidente services conseils</h4>
+						<p>
+							Sue-Marie possède une expertise dans la gestion de projet / programme
+						</p>
+						<p>
+							<a href="mailto:sue-marie@developmen.ca">sue-marie@developmen.ca</a>
+						</p>
+						<p>
+							Tel: 514.500.2255 ext:221
+						</p>
+						<p style="text-align: right">
+							<%= link_to "détails", 'contact/suemarie'%>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="span11">
-			&nbsp;
+	<!-- SYLVAIN-->
+	<div class="row equipe">
+		<div class="panel_section">
+			<div class="span10 text_right">
+				<div class="box_text_contact">
+					<div class="text_contact">
+						<h2>Sylvain Bouchard</h2>
+						<h4>Secrétaire</h4>
+						<p>
+							Sylvain possède une expertise dans la conception, le développment et la formation.
+						</p>
+						<p>
+							<a href="mailto:sylvain@developmen.ca">sylvain@developmen.ca</a>
+						</p>
+						<p>
+							Tel: 514.500.2255 ext:223
+						</p>
+						<p style="text-align: right">
+							<%= link_to "détails", 'contact/sylvain'%>
+						</p>
+					</div>
+				</div>
+			</div>
+			<a href="/contact/sylvain"><div class="span5 content_contact sylvain "></div></a>
 		</div>
-		<a href="/contact/stephane"><div class="span5 content_contact stephane"></div></a>
-	</div>
-	<div class="row">
-		<div class="span1">
-			&nbsp;
-		</div>
-		<a href="/contact/regis"><div class="span5 content_contact regis"></div></a>
-	</div>
-	<div class="row">
-		<div class="span11">
-			&nbsp;
-		</div>
-		<a href="/contact/fred"><div class="span5 content_contact fred"></div></a>
 	</div>
 </div>
-</div> 
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="panel_section">
+<div class="box_text_contact">
+<div class="text_contact">
+<h2>Sue-Marie Garceau</h2>
+<h4>Vice-présidente service conseil</h4>
+scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree
+</div>
+</div>
+<a href="/contact/suemarie"><div class="span5 content_contact sue "></div></a>
+</div>
+</div>
+<div class="row">
+<div class="span1">
+&nbsp;
+</div>
+<div class="span10 box_text_contact">
+<div class="text_contact">
+<h2>Sue-Marie Garceau</h2>
+<h4>Vice-présidente service conseil</h4>
+scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree
+</div>
+</div>
+<a href="/contact/benoit"><div class="span5 content_contact benoit"></div></a>
+</div>
+<div class="row">
+<div class="span1">
+&nbsp;
+</div>
+<a href="/contact/sylvain"><div class="span5 content_contact sylvain "></div></a>
+<div class="span10 box_text_contact">
+<div class="text_contact">
+<h2>Sue-Marie Garceau</h2>
+<h4>Vice-présidente service conseil</h4>
+scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree scknsdkj ncsjk ncnc sjnc dn jjndjncnh lori bgd ettree
+</div>
+</div>
+</div>
+<div class="row">
+<div class="span11">
+&nbsp;
+</div>
+<a href="/contact/stephane"><div class="span5 content_contact stephane"></div></a>
+</div>
+<div class="row">
+<div class="span1">
+&nbsp;
+</div>
+<a href="/contact/regis"><div class="span5 content_contact regis"></div></a>
+</div>
+<div class="row">
+<div class="span11">
+&nbsp;
+</div>
+<a href="/contact/fred"><div class="span5 content_contact fred"></div></a>
+</div>
+</div>  -->

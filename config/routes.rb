@@ -1,6 +1,7 @@
 Trunk::Application.routes.draw do
 
 
+
   match 'home' => 'home#index'
   match 'contact' => 'contact#index'
   match 'contact/sylvain' => 'contact#sylvain'
@@ -71,6 +72,9 @@ Trunk::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   root :to => "home#index"
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
 
   # See how all your routes lay out with "rake routes"
 
