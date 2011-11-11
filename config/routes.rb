@@ -18,6 +18,8 @@ Trunk::Application.routes.draw do
   match 'linkedinauth/init_auth' => 'linkedinAuth#init_auth'
   
   match 'mission' => 'mission#index'
+  match 'service' => 'service#index'
+  match 'developmen' => 'developmen#index'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
