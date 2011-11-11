@@ -4,7 +4,7 @@
 }
 #header {
 
-	height:180px;
+	height: 180px;
 	margin-top: 41px;
 	background: #2d2d2d;
 	background: -moz-linear-gradient(top, #2d2d2d 31%, #404040 61%, #404040 62%, #494949 100%);
@@ -69,33 +69,39 @@
 }
 /************************ FOOTER  ***************************/
 
-.footer{
-	height: 200px;
-	background-color: #000;
+.footer {
+	height: 300px;
+	background-color: #222222;
 	position: relative;
-	right : 0;
-	left:0;
+	right: 0;
+	left: 0;
 	bottom: 0;
-
 }
-
-.news{
-	background-color: #fff;
+.news {
+	color: #CCCCCC;
 	height: 150px;
-	
+	margin-left: -20px;
+	border-right: 2px solid #2f2f2f;
+	border-left: 2px solid #2f2f2f;
+	margin-top: 10px;
+	padding: 10px 10px 10px 20px;
 }
-.about{
-	background-color: #fff;
+.about {
+	color: #CCCCCC;
 	height: 150px;
-	
+	margin-left: -20px;
+	margin-top: 10px;
+	padding: 10px 10px 10px 20px;
 }
-
-.social{
-	background-color: #fff;
+.social {
+	color: #CCCCCC;
 	height: 150px;
-	
+	margin-left: -20px;
+	border-right: 2px solid #2f2f2f;
+	border-left: 2px solid #2f2f2f;
+	margin-top: 10px;
+	padding: 10px 10px 10px 20px;
 }
-
 /************************ CAROUSEL  ***************************/
 #carousel ul {
 	list-style: none;
@@ -129,22 +135,31 @@
 }
 /************************ GENERAL  ***************************/
 
-
-.main{
+.menu {
+}
+.maincontent_text {
+	padding: 10px;
+}
+.main {
 	display: block;
 	position: relative;
 	background-color: #BBBBBB;
 	padding-bottom: 10px;
-    padding-top: 10px;
-    top: 36px;
+	padding-top: 10px;
+	top: 36px;
 }
-
-
 html, body {
 	display: block;
-	background-image: url('/images/background-site.jpg');
 	padding: 0px;
 	margin: 0px;
+	background: #222222;
+	background: -moz-linear-gradient(top, #222222 21%, #c7d628 50%, #222222 78%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(21%,#222222), color-stop(50%,#c7d628), color-stop(78%,#222222));
+	background: -webkit-linear-gradient(top, #222222 21%,#c7d628 50%,#222222 78%);
+	background: -o-linear-gradient(top, #222222 21%,#c7d628 50%,#222222 78%);
+	background: -ms-linear-gradient(top, #222222 21%,#c7d628 50%,#222222 78%);
+	background: linear-gradient(top, #222222 21%,#c7d628 50%,#222222 78%);
+	filter: progid :DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#222222',GradientType=0 );
 }
 .content_text {
 	height: 630px;
@@ -204,7 +219,7 @@ li {
 	-webkit-border-bottom-left-radius: 6px;
 	-webkit-border-bottom-right-radius: 6px;
 	-moz-border-radius: 6px 6px 6px 6px;
-	overflow: scroll;
+	overflow: auto;
 }
 .suemary_border {
 	border: 8px solid #55233b;
@@ -230,7 +245,7 @@ li {
 	-webkit-border-bottom-left-radius: 10px;
 	-webkit-border-bottom-right-radius: 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
-	top: -70px;
+	margin: 5px auto 35px 10px;
 }
 .allbenoit {
 	background-image: url('/images/benoit_contact.png');

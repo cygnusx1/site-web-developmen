@@ -3,11 +3,8 @@
 	<div class="topbar-wrapper" style="z-index: 5;">
 		<div class="topbar" data-dropdown="dropdown" data-scrollspy="scrollspy">
 			<div class="topbar-inner">
-				<div class="container">
+				<div class="menu container">
 					<ul class="nav">
-						<li>
-							<%= image_tag("Logo-HiRes.png", :width=>"40px", :height=>"37px")%>
-						</li>
 						<li>
 							<%= link_to "Accueil", :controller=>"home" %>
 						</li>
@@ -45,11 +42,23 @@
 								</li>
 							</ul>
 						</li>
+						<li style="margin-left: 472px">
+							<%=link_to image_tag("social_networking/linkedin_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
+						</li>
+						<li>
+							<%= link_to image_tag("social_networking/twitter_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
+						</li>
+						<li>
+							<%= link_to image_tag("social_networking/facebook_32.png"), "http://www.facebook.com/pages/D%C3%A9velopMen/174991212590557", :style=>"padding: 7px 7px 0px;"%>
+						</li>
+						<li >
+							<%= link_to image_tag("social_networking/email_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
+						</li>
+						
 					</ul>
-					<form class="pull-left" action="">
+<!-- 					<form class="pull-left" action="">
 						<input type="text" placeholder="Search" />
-					</form>
-				</div>
+					</form> -->				</div>
 			</div><!-- /topbar-inner -->
 		</div><!-- /topbar -->
 	</div><!-- /topbar-wrapper -->
