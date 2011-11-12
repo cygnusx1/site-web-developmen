@@ -66,7 +66,7 @@ ActiveRecord::Schema.define(:version => 20111111195530) do
 
   create_table "mandats", :force => true do |t|
     t.string   "title"
-    t.string   "description", :limit => 1000
+    t.string   "description", :limit => 5000
     t.string   "duree"
     t.string   "location"
     t.boolean  "show"
