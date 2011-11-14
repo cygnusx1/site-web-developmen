@@ -1,0 +1,39 @@
+
+
+
+<%if !@profile.nil?%>
+
+	<%= image_tag(@profile.picture_url) if !@profile.picture_url.nil? %><br />
+	<strong><%=@profile.first_name %> <%=@profile.last_name %><br></strong>
+	<%=@profile.headline%><br> 
+	<%=@profile.industry%><br> <br/>
+	<%=@profile.summary%><br> <br />
+	
+	
+	<strong>Education</strong><br>
+	<% @profile.educations.all.each {|edu| %>
+	
+		Degre : <%=edu.degree%><br>			
+		Années : <%=edu.start_date.year%> - <%=edu.end_date.year%><br>						
+		Concentration : <%=edu.field_of_study%><br>			
+		Universite : <%=edu.school_name%><br><br />			
+	<%}%>
+	<strong>Recommendations</strong><br>
+	<% @profile.recommendations_received.all.each {|rec| %>
+		<blockquote>
+			<%=rec.recommendation_text%>
+			<small><%=rec.recommender.first_name%>&nbsp;<%=rec.recommender.last_name%>,&nbsp;<%=rec.recommendation_type.code%></small>							
+		</blockquote>
+	<%}%>
+	
+	<strong>Experience</strong><br><br />
+	<% @profile.positions.all.each {|pos| %>
+		<strong><%=pos.company.name%></strong><br><br>							
+		Titre : <%=pos.title%><br>			
+		Années : <%=pos.start_date.month%>/<%=pos.start_date.year%> - <%=  pos.end_date? ? pos.end_date.month.to_s + "/" + pos.end_date.year.to_s : "now"%><br>						
+		Description :<%=pos.summary%><br/><br/>			
+	<%}%>
+
+<%else%>
+	<%=link_to image_tag("social_networking/linkedin_32.png"),{ :controller=>"linkedinAuth", :action=>"init_auth", :name=>@name, :callback=>"/linkedinauth/callback?name=#{@name}"}, :rel=>"twipsy", :data_original_title=>"llollo"%>
+<%end%>				
