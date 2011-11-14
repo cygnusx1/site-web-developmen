@@ -3,17 +3,17 @@ Trunk::Application.routes.draw do
 
 
   match 'home' => 'home#index'
-  match 'contact' => 'contact#index'
-  match 'contact/sylvain' => 'contact#sylvain'
-  match 'contact/benoit' => 'contact#benoit'
-  match 'contact/stephane' => 'contact#stephane'
-  match 'contact/suemarie' => 'contact#suemarie'
-  match 'contact/regis' => 'contact#regis'
-  match 'contact/fred' => 'contact#fred'
+  match 'equipe' => 'equipe#index'
+  match 'equipe/sylvain' => 'equipe#sylvain'
+  match 'equipe/benoit' => 'equipe#benoit'
+  match 'equipe/stephane' => 'equipe#stephane'
+  match 'equipe/suemarie' => 'equipe#suemarie'
+  match 'equipe/regis' => 'equipe#regis'
+  match 'equipe/fred' => 'equipe#fred'
   
-  match 'contact/callback' => 'contact#callback'
-  match 'contact/auth' => 'contact#auth'
-  match 'contact/ajax_contact' => 'contact#ajax_contact'
+  match 'equipe/callback' => 'equipe#callback'
+  match 'equipe/auth' => 'equipe#auth'
+  match 'equipe/ajax_contact' => 'equipe#ajax_contact'
   
   match 'linkedinauth/callback' => 'linkedinAuth#callback'
   match 'linkedinauth/init_auth' => 'linkedinAuth#init_auth'

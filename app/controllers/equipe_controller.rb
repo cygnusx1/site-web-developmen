@@ -1,4 +1,4 @@
-class ContactController < ApplicationController
+class EquipeController < ApplicationController
 
   require 'rubygems'
   require 'linkedin'
