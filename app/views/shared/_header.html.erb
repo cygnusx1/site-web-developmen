@@ -6,7 +6,7 @@
 				<div class="menu container">
 					<ul class="nav">
 						<li>
-							<%= link_to "Accueil", :controller=>"home" %>
+							<%= link_to "Accueil", :root %>
 						</li>
 						<li>
 							<%= link_to "Mission", :controller=>"mission" %>
@@ -47,9 +47,12 @@
 						<li>
 							<%= link_to "Contact", :controller=>'contact'%>
 						</li>
+						<li>
+							<%= link_to "Admin", '/admin'%>
+						</li>
 							
 						</li>
-						<li style="margin-left: 270px">
+						<li style="margin-left: 220px">
 							<%=link_to image_tag("social_networking/linkedin_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
 						</li>
 						<li>

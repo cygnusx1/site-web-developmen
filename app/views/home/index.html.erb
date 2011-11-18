@@ -4,11 +4,10 @@ Include the carrousel only in the home page.
 Remove the if to see it in each page
 ----------------------------------------------
 -->
-<% if current_page?(:controller=>"home") %>
 <div id="carousel_container">
 	<%= render "carousel" %>
 </div>
-<% end %> <!-- <%= image_tag("header_01.jpg", :id=>"header_img") %> -->
+ <!-- <%= image_tag("header_01.jpg", :id=>"header_img") %> -->
 <div class="span6">
 	<div class="maincontent_text">
 		<h4>Derniers mandats</h4>
