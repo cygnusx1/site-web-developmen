@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @mandat = Mandat.where(:show=> true)
+    @mandat = Mandat.find_mandats_home
   end
 
 end

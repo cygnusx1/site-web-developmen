@@ -1,4 +1,61 @@
 /************************ HEADER  ***************************/
+li {
+	list-style-type: none;
+	color: #111f3d;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #301b6b;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+}
+h2 {
+	color: #FFFFFF;
+}
+h3 {
+	font-size: 23px;
+}
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	color: #1a132e;
+	font-size: 16px;
+}
+.content_text_mandats p {
+	font-size: 12px;
+}
+
+.content_text_mandats pre {
+	font-size: 12px;
+}
+
+.content_text_mandats a {
+	padding-left: 20px;
+}
+.content_text_mandats h3 {
+	padding-left: 20px;
+}
+
+
+/* override de bootcamp */
+.label{
+	font-size: 13px;
+}
+
+pre{
+	background-color: #cccccc;
+	border: 0px;
+	white-space: pre-line;
+	word-wrap: break-word;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	color: #1a132e;
+	font-size: 16px;
+	padding : 0px;
+
+}
 #header-index {
 	height: 100px;
 }
@@ -38,7 +95,6 @@
 	font-size: small;
 	padding-top: 5px;
 }
-
 #services {
 	height: 30px;
 	color: #fff;
@@ -60,6 +116,9 @@
 	right: 0;
 	left: 0;
 	bottom: 0;
+}
+.text_footer {
+	color: #DBDDDF;
 }
 .news {
 	color: #CCCCCC;
@@ -149,47 +208,24 @@ html, body {
 	background: linear-gradient(top, #222222 2%,#e2dee5 50%,#222222 85%);
 	filter: progid :DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#222222',GradientType=0 );
 }
-.content_text {
-	height: 630px;
-	margin: 5px;
-	padding: 5px;
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-}
-li {
-	list-style-type: none;
-	color: #111f3d;
-}
-h1, h2, h3, h4, h5, h6 {
-	color: #444;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-weight: lighter;
-}
-h2 {
-	color: #FFFFFF;
-}
-h3{
-	font-size: 23px;
-}
-p {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-weight: lighter;
-}
+/*.content_text {
+ height: 630px;
+ margin: 5px;
+ padding: 5px;
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ }*/
 
 /************************ CONTACT  ***************************/
 
 .telbox {
 	padding: 30px;
 }
-
 /************************ EQUIPE  ***************************/
 
 .equipe {
 	margin-top: 20px;
 }
-
 .text_right {
 	margin-left: 3px;
 	margin-right: 20px;
@@ -296,38 +332,38 @@ p {
 	background-image: url('/images/fred_contact.jpg');
 }
 /*.benoit {
-	background-image: url('/images/benoit_contact_thumb.jpg');
-}*/
+ background-image: url('/images/benoit_contact_thumb.jpg');
+ }*/
 .benoit {
 	background-image: url('/images/benoit_contact_thumb_over.jpg');
 }
 /*.regis {
-	background-image: url('/images/regis_contact_thumb.jpg');
-}*/
+ background-image: url('/images/regis_contact_thumb.jpg');
+ }*/
 .regis {
 	background-image: url('/images/regis_contact_thumb_over.jpg');
 }
 /*.sue {
-	background-image: url('/images/sue-mary_contact_thumb.jpg');
-}*/
+ background-image: url('/images/sue-mary_contact_thumb.jpg');
+ }*/
 .sue {
 	background-image: url('/images/sue-mary_contact_thumb_over.png');
 }
 /*.stephane {
-	background-image: url('/images/stephane_contact_thumb.jpg');
-}*/
+ background-image: url('/images/stephane_contact_thumb.jpg');
+ }*/
 .stephane {
 	background-image: url('/images/stephane_contact_thumb_over.png');
 }
 /*.sylvain {
-	background-image: url('/images/sylvain_contact_thumb.jpg');
-}*/
+ background-image: url('/images/sylvain_contact_thumb.jpg');
+ }*/
 .sylvain {
 	background-image: url('/images/sylvain_contact_thumb_over.png');
 }
 /*.fred {
-	background-image: url('/images/fred_contact_thumb.jpg');
-}*/
+ background-image: url('/images/fred_contact_thumb.jpg');
+ }*/
 .fred {
 	background-image: url('/images/fred_contact_thumb_over.jpg');
 }
@@ -356,7 +392,6 @@ p {
 	font-size: x-small;
 }
 /************************ MISSION  ***************************/
-
 
 .panel_section {
 	width: 97%;
@@ -389,5 +424,10 @@ p {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: 100%;
-	
+}
+.content_text_home {
+	margin-right: 15px;
+}
+.content_text_mandats {
+	padding-left: 5px;
 }

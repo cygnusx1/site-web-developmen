@@ -24,6 +24,8 @@ Trunk::Application.routes.draw do
   
   match 'contact' => 'contact#index'
   
+  match 'mandats' => 'mandats#index'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

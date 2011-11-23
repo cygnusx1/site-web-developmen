@@ -1,0 +1,40 @@
+<div id="mandat" class="span16">
+	<div class="row">
+		<div class="panel_section">
+			<div class="content_text">
+				<h1>Mandats</h1>
+				<br />
+				<% @mandat.each do |m|%>
+				<hr />
+				<ul>
+					<li>
+						<span class="label success"><%= m.title%></span>
+					</li>
+					<br>
+					<p>
+						<b>Description :</b>
+					</p>
+					<pre>
+						<%= m.description %>
+					</pre>
+					<p>
+						<b>Durée : </b>
+					</p>
+					<p>
+						<%= m.duree %><%= " - possiblilité de renouvellement." if m.renew? %>
+					</p>
+					<p>
+						<b>Lieu :</b>
+					</p>
+					<p>
+						<%= m.location? ?  m.location : "Non dispo" %>
+					</p>
+					<p>
+						<%= localize(m.created_at, :format=> '%d-%m-%Y') %>
+					</p>
+				</ul>
+				<%end%>
+			</div>
+		</div>
+	</div>
+</div>
