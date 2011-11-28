@@ -5,3 +5,4 @@ tmp/**/*
 
 .gitignore
 .project
+.DS_Store

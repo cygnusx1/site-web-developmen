@@ -7,7 +7,7 @@ class EquipeController < ApplicationController
   def index
     
         flash[:tip] = I18n.t(:message_contact)
-
+        render :layout => "application"
   end
   
 
