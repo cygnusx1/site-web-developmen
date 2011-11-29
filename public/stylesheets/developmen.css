@@ -126,7 +126,8 @@ pre {
 	bottom: 0;
 }
 .text_footer {
-	color: #DBDDDF;
+	color: #888888;
+	font-size: 14px;
 }
 .news {
 	color: #CCCCCC;
@@ -283,7 +284,7 @@ pre {
 	color: #000333;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	height: 700px;
+	height: 668px;
 	top: 10px;
 	margin: 1px;
 	padding: 0;
@@ -322,21 +323,27 @@ pre {
 }
 .allbenoit {
 	background-image: url('/images/benoit-contact.jpg');
+	background-repeat: no-repeat;
 }
 .allstephane {
 	background-image: url('/images/stephane-contact.jpg');
+	background-repeat: no-repeat;
 }
 .allsue_mary {
 	background-image: url('/images/sue-mary_contact.jpg');
+	background-repeat: no-repeat;
 }
 .allsylvain {
 	background-image: url('/images/sylvain-contact.jpg');
+	background-repeat: no-repeat;
 }
 .allregis {
 	background-image: url('/images/regis_contact.jpg');
+	background-repeat: no-repeat;
 }
 .allfred {
 	background-image: url('/images/fred_contact.jpg');
+	background-repeat: no-repeat;
 }
 /*.benoit {
  background-image: url('/images/benoit_contact_thumb.jpg');
@@ -425,9 +432,9 @@ pre {
 	padding-top: 50px;
 	padding-bottom: 100px;
 	background-color: #cccccc;
-	box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.8);
-	-moz-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.8);
-	-webkit-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.6);
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: 100%;
