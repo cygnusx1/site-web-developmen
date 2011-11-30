@@ -48,7 +48,7 @@ h1 {
 	background: -o-linear-gradient(left,#222222, #cccccc);
 	background: linear-gradient(left,#222222, #cccccc);
 	-pie-background: linear-gradient(left,#222222, #cccccc);
-	behavior: url(stylesheets/PIE.htc);
+	behavior: url(/stylesheets/PIE.htc);
 }
 h2 {
 	color: #FFFFFF;
