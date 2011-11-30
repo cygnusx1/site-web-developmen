@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>DevelopMen - Besoin d'un super heros pour vos projets T.I.</title>
 		<%= stylesheet_link_tag "bootstrap.min","developmen", :cache => false%>
-		<%= javascript_include_tag "jquery-1.6.3", "jquery.infinitecarousel", "home", "bootstrap-alerts", "bootstrap-twipsy", "bootstrap-dropdown", "bootstrap-scrollspy" %>
+		<%= javascript_include_tag "jquery-1.6.3", "bootstrap-alerts", "bootstrap-twipsy", "bootstrap-dropdown", "bootstrap-scrollspy" %>
 		<%= csrf_meta_tag %>
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>
+			( function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if(d.getElementById(id)) {
+					return;
+				}
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=300680896620427";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+		</script>
 		<%= render "shared/header" %>
 		<div class="container">
 			<p class="notice">

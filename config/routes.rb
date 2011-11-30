@@ -3,6 +3,7 @@ Trunk::Application.routes.draw do
 
 
   match 'home' => 'home#index'
+  match 'home/ajax_twitter' => 'home#ajax_twitter'
   match 'equipe' => 'equipe#index'
   match 'equipe/sylvain' => 'equipe#sylvain'
   match 'equipe/benoit' => 'equipe#benoit'

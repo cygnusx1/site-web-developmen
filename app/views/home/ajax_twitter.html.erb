@@ -1,0 +1,9 @@
+<ul>
+	<% @tweets.each do |tweet|%>
+	<li class="tweets">
+		<%= image_tag tweet.pics, :width=>'16px', :height=>'16px'  %> "<%= tweet.tweet  %>" <span style="font-size: 10px">- @<%= tweet.name%> - <%= localize(tweet.time, :format=>:short) %></span>
+	</li>
+	<hr>
+	<%end%>
+</ul>
+

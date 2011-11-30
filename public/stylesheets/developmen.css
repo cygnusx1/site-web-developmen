@@ -17,17 +17,51 @@ li {
 	list-style-type: none;
 	color: #111f3d;
 }
-h1, h2, h3, h4, h5, h6 {
+.tweets {
+	height: 40px;
+	font-style: oblique;
+	font-weight: bold;
+}
+h2, h3, h4, h5 {
 	color: #301b6b;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: lighter;
 }
+h1 {
+	color: #EEE;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	background-color: #333;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+}
 h2 {
 	color: #FFFFFF;
 }
-h3 {
-	font-size: 23px;
+h6 {
+	font-size: 16px;
+	color: #EEE;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	background-color: #333;
+	padding-left: 20px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	text-transform: none;
 }
 p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -427,8 +461,8 @@ pre {
 	position: relative;
 }
 .content_text {
-	padding: 10px;
-	padding-left: 40px;
+	padding-right: 25px;
+	padding-left: 25px;
 	padding-top: 50px;
 	padding-bottom: 100px;
 	background-color: #cccccc;
@@ -441,9 +475,10 @@ pre {
 }
 .content_text_home {
 	margin-right: 15px;
+	padding: 50px 20px 50px 20px;
 }
 .content_text_mandats {
-	padding-left: 5px;
+	padding-left: 15px;
 }
 .img_head {
 	position: relative;

@@ -1,4 +1,4 @@
-<!--
+<%= javascript_include_tag "home", "jquery.infinitecarousel" %> <!--
 ----------------------------------------------
 Include the carrousel only in the home page.
 Remove the if to see it in each page
@@ -10,7 +10,7 @@ Remove the if to see it in each page
 <!-- <%= image_tag("header_01.jpg", :id=>"header_img") %> -->
 <div class="span6">
 	<div class="content_text content_text_mandats">
-		<h3>Derniers mandats</h3>
+		<h6>Derniers mandats</h6>
 		<br />
 		<% @mandat.each do |m|%>
 		<ul>
@@ -18,22 +18,27 @@ Remove the if to see it in each page
 				<span class="label success"><%= m.title%></span>
 			</li>
 			<br>
-			<p><b>Description :</b></p>
+			<p>
+				<b>Description :</b>
+			</p>
 			<pre>
 				<%= m.description %>
 			</pre>
-			<p><b>Durée : </b></p>
+			<p>
+				<b>Durée : </b>
+			</p>
 			<p>
 				<%= m.duree %><%= " - possiblilité de renouvellement." if m.renew? %>
 			</p>
-			<p><b>Lieu :</b> </p>
 			<p>
-				<%=  m.location? ?  m.location : "Non dispo" %>
+				<b>Lieu :</b>
+			</p>
+			<p>
+				<%= m.location? ?  m.location : "Non dispo" %>
 			</p>
 			<p>
 				<%= localize(m.created_at, :format=> '%d-%m-%Y') %>
 			</p>
-			
 		</ul>
 		<%end%>
 		<%= link_to "Tous les mandats", "mandats"%>
@@ -74,6 +79,21 @@ Remove the if to see it in each page
 			<p>
 				Avec l'équipe DevelopMen, vos projets de moyenne à grande envergure sont entre bonnes mains.  Si la tâche se révèle trop fastidieuse, notre grand réseau de contacts nous permettra d’appeler d'autres supers héros à la rescousse.
 			</p>
+		</div>
+	</div>
+	<div class="content_text content_text_home">
+		<h1>Réseaux sociaux</h1>
+		<div class="row content_text_home">
+			<h6>Twitter &nbsp;<%= image_tag 'social_networking/twitter_16.png'%></h6>
+			<br />
+			<div class="ajaxtwitter">
+				<%= image_tag("spinner-small.gif")%>
+			</div>
+			<a href="https://twitter.com/DevelopMenGC" class="twitter-follow-button">Follow @DevelopMenGC</a><script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+		</div>
+		<div class="row content_text_home">
+			<h6>Facebook&nbsp; <%= image_tag 'social_networking/facebook_16.png'%></h6>
+			<fb:like-box href="http://www.facebook.com/pages/D%C3%A9velopMen/174991212590557" width="532" show_faces="true" stream="false" header="false" data-border-color="#cccccc"></fb:like-box>
 		</div>
 	</div>
 </div>
