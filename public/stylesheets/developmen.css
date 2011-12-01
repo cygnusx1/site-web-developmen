@@ -297,6 +297,7 @@ pre {
 	box-shadow: #666 3px 2px 3px;
 	-moz-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.8);
 	-webkit-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.8);
+	position:relative;
 	behavior: url(PIE.htc);
 }
 .content_contact {
