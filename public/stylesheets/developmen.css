@@ -11,7 +11,10 @@ html, body {
 	background: -o-linear-gradient(top, #222222 2%,#e2dee5 50%,#222222 85%);
 	background: -ms-linear-gradient(top, #222222 2%,#e2dee5 50%,#222222 85%);
 	background: linear-gradient(top, #222222 2%,#e2dee5 50%,#222222 85%);
-	filter: progid :DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#222222',GradientType=0 );
+	background: -o-linear-gradient(top,#222222 2%,#e2dee5 50%,#222222 85%);
+	-pie-background: linear-gradient(top,#222222 2% , #e2dee5 50% , #222222 88%) );
+	behavior: url(PIE.htc);
+	position: relative;
 }
 li {
 	list-style-type: none;
@@ -46,9 +49,9 @@ h1 {
 	background: -moz-linear-gradient(left,#222222, #cccccc);
 	background: -ms-linear-gradient(left,#222222, #cccccc);
 	background: -o-linear-gradient(left,#222222, #cccccc);
-	background: linear-gradient(left,#222222, #cccccc);
-	-pie-background: linear-gradient(left,#222222, #cccccc);
-	behavior: url(/stylesheets/PIE.htc);
+	-pie-background: linear-gradient(left, #222222, #cccccc);
+	position: relative;
+	behavior: url(/PIE.htc);
 }
 h2 {
 	color: #FFFFFF;
@@ -63,21 +66,19 @@ h6 {
 	padding-left: 20px;
 	padding-bottom: 0px;
 	padding-top: 0px;
-	-webkit-border-top-left-radius: 10px;
-	-webkit-border-top-right-radius: 10px;
-	-webkit-border-bottom-left-radius: 10px;
-	-webkit-border-bottom-right-radius: 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
 	text-transform: none;
-	background: #333333;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzNiUiIHN0b3AtY29sb3I9IiMzMzMzMzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-	background: -moz-linear-gradient(left, #333333 36%, #cccccc 100%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(36%,#333333), color-stop(100%,#cccccc));
-	background: -webkit-linear-gradient(left, #333333 36%,#cccccc 100%);
-	background: -o-linear-gradient(left, #333333 36%,#cccccc 100%);
-	background: -ms-linear-gradient(left, #333333 36%,#cccccc 100%);
-	background: linear-gradient(left, #333333 36%,#cccccc 100%);
-	filter: progid :DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#cccccc',GradientType=1 );
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #222222;
+	background: -webkit-gradient(linear, 0 0, 0 left, from(#222222), to(#cccccc));
+	background: -webkit-linear-gradient(left,#222222, #cccccc);
+	background: -moz-linear-gradient(left,#222222, #cccccc);
+	background: -ms-linear-gradient(left,#222222, #cccccc);
+	background: -o-linear-gradient(left,#222222, #cccccc);
+	-pie-background: linear-gradient(left, #222222, #cccccc);
+	position: relative;
+	behavior: url(PIE.htc);
 }
 p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -105,7 +106,7 @@ p {
 pre {
 	background-color: #cccccc;
 	border: 0px;
-	white-space: pre-line;
+	white-space: normal;
 	word-wrap: break-word;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
@@ -293,9 +294,10 @@ pre {
 }
 .box_text_contact {
 	background-color: #cccccc;
-	box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.8);
+	box-shadow: #666 3px 2px 3px;
 	-moz-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.8);
 	-webkit-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.8);
+	behavior: url(PIE.htc);
 }
 .content_contact {
 	background-color: #22222b;
@@ -370,6 +372,7 @@ pre {
 	-webkit-border-bottom-right-radius: 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	margin: 5px auto 35px 10px;
+	border-radius: 10px;
 }
 .allbenoit {
 	background-image: url('/images/benoit-contact.jpg');
@@ -475,6 +478,7 @@ pre {
 	border: solid 4px #000;
 	top: 248px;
 	position: relative;
+	behavior: url(PIE.htc);
 }
 .content_text {
 	padding-right: 25px;
@@ -488,6 +492,8 @@ pre {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: 100%;
+	position: relative;
+	behavior: url(PIE.htc);
 }
 .content_text_home {
 	margin-right: 15px;
