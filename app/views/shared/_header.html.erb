@@ -7,23 +7,23 @@
 					<div class="row">
 					<ul class="nav">
 						<li>
-							<%= link_to "Accueil", :root %>
+							<%= link_to t("menu_home"), :root %>
 						</li>
 						<li>
-							<%= link_to "Mission", :controller=>"mission" %>
+							<%= link_to t("menu_mission"), :controller=>"mission" %>
 						</li>
 						<li></li>
 						<li>
-							<%= link_to "Services", :controller=>'service'%>
+							<%= link_to t("menu_services"), :controller=>'service'%>
 						</li>
 						<li>
-							<%= link_to "DévelopMen", :controller=>'developmen'%>
+							<%= link_to t("menu_developmen"), :controller=>'developmen'%>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle">Notre équipe</a>
+							<a href="#" class="dropdown-toggle"><%= t("menu_team")%></a>
 							<ul class="dropdown-menu">
 								<li>
-									<%= link_to "Tous", :controller=>"equipe"%>
+									<%= link_to t("menu_team_all"), :controller=>"equipe"%>
 								</li>
 								<li class="divider"></li>
 								<li>
@@ -46,14 +46,24 @@
 								</li>
 							</ul>
 						<li>
-							<%= link_to "Contact", :controller=>'contact'%>
+							<%= link_to t("menu_contact"), :controller=>'contact'%>
 						</li>
 						<li>
-							<%= link_to "Admin", '/admin'%>
+							<%= link_to t("menu_admin"), '/admin'%>
+						</li>
+						<li>
+							<% if I18n.locale == I18n.default_locale %>
+							 <%= link_to "English", :locale=>'en'%>
+
+							 <% else %>
+							 <%= link_to "Français", :locale=>'fr'%>
+
+							 <%end%>
+							
 						</li>
 							
 						</li>
-						<li style="margin-left: 245px">
+						<li style="margin-left: 160px">
 							<%= link_to image_tag("social_networking/linkedin_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
 						</li>
 						<li>
@@ -68,10 +78,8 @@
 						
 					</ul>
 					</div>
-<!-- 					<form class="pull-left" action="">
-						<input type="text" placeholder="Search" />
-					</form> -->				</div>
-			</div><!-- /topbar-inner -->
-		</div><!-- /topbar -->
-	</div><!-- /topbar-wrapper -->
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

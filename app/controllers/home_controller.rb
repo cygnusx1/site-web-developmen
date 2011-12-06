@@ -25,8 +25,15 @@ class HomeController < ApplicationController
       tw = Tweet.new tweet.user.profile_image_url_https, tweet.text, tweet.user.name, tweet.created_at
       @tweets << tw
     end
+
     render :layout=>false
-  end
+
+  rescue SocketError
+    @tweets = []
+
+    flash[:notice]= "Probleme avec Twitter"
+    render :layout=>false
+    end
 
   class Tweet
     def initialize(pics, tweet, name, time)

@@ -1,3 +1,4 @@
+<% if !@tweets.empty? %>
 <ul>
 	<% @tweets.each do |tweet|%>
 	<li class="tweets">
@@ -6,4 +7,4 @@
 	<hr>
 	<%end%>
 </ul>
-
+<%end%> 

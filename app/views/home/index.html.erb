@@ -10,7 +10,7 @@ Remove the if to see it in each page
 <!-- <%= image_tag("header_01.jpg", :id=>"header_img") %> -->
 <div class="span6">
 	<div class="content_text content_text_mandats">
-		<h6>Derniers mandats</h6>
+		<h6><%=t('last_mandates_title')%></h6>
 		<br />
 		<% @mandat.each do |m|%>
 		<ul>
@@ -47,42 +47,14 @@ Remove the if to see it in each page
 <div class="span10">
 	<div class="content_text content_text_home">
 		<div class="">
-			<h1>Supers Héros pour vos projets T.I.</h1>
-			<p>
-				DevelopMen, c'est d'abord six partenaires ayant fait leurs preuves depuis plus de 20 ans dans la réalisation de différents projets informatiques dans la région de Montréal.
-			</p>
-			<p>
-				Notre équipe compte les joueurs clés dont tout projet TI a besoin:
-			</p>
-			<p>
-				<ul>
-					<li>
-						Gestionnaires de projets / programmes
-					</li>
-					<li>
-						Analystes d’affaires
-					</li>
-					<li>
-						Architectes technologiques
-					</li>
-					<li>
-						Concepteurs
-					</li>
-					<li>
-						Développeurs
-					</li>
-					<li>
-						Administration de système
-					</li>
-				</ul>
-			</p>
-			<p>
-				Avec l'équipe DevelopMen, vos projets de moyenne à grande envergure sont entre bonnes mains.  Si la tâche se révèle trop fastidieuse, notre grand réseau de contacts nous permettra d’appeler d'autres supers héros à la rescousse.
-			</p>
+			<h1><%= t('home_box1_title')%></h1>
+			<%= t('home_box1_text_html')%>
+			<%= t('home_box1_bullet_html')%>
+			<%= t('home_box1_text2_html')%>
 		</div>
 	</div>
 	<div class="content_text content_text_home">
-		<h1>Réseaux sociaux</h1>
+		<h1><%=t('social_network_title')%></h1>
 		<div class="row content_text_home">
 			<h6>Twitter &nbsp;<%= image_tag 'social_networking/twitter_16.png'%></h6>
 			<br />

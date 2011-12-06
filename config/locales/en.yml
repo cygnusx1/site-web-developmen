@@ -2,5 +2,62 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
-  message_contact: "Si vous nous connaissez vraiment, essayez de trouver la vrai personne derrière le personnage ;-)"
+  #home page
+  home_box1_title: "Super Hero for your I.T. projects"
+  home_box1_text_html: "<p>DevelopMen, is six partners who have made there proof since the last 20 years in realizing diffrent I.T. projects in the Montreal region.</p><pOur team is composed of key players every I.T. projects need to succeed :</p>"
+  home_box1_bullet_html: "<p><ul><li>Project / program manager</li><li>Business Analyst</li><li>I.T. Architect</li><li>Software Designer</li><li>Software Developer</li><li>System Administrator</li></ul></p>"
+  home_box1_text2_html: "<p>Avec l'équipe DevelopMen, vos projets de moyenne à grande envergure sont entre bonnes mains.  Si la tâche se révèle trop fastidieuse, notre grand réseau de contacts nous permettra d’appeler d'autres supers héros à la rescousse.</p>"
+  social_network_title: "Social networks"
+  last_mandates_title: "Last mandates"
+  
+  #menu items - HEADER
+  menu_home: "Home"
+  menu_mission: "Mission"
+  menu_services: "Services"
+  menu_developmen: "DevelopMen"
+  menu_team: "Team"
+  menu_team_all: "all"
+  menu_contact: "Contact"
+  menu_admin: "Admin"
+  
+  #Footer items
+  footer_news: "News"
+  footer_who: "Who we are"
+  footer_social: "Social"
+  footer_follow: "Follow us on :"
+  
+  #mission page
+  mission_title: "Mission"
+  values_title: "Values"
+  
+  #service page
+  service_title: "Our Services"
+  hiring_method: "Recrutment and Hiring Method"
+  our_method: "Our Method"
+  method_first_step: "First Step"
+  method_second_step: "Second Step"
+  method_final_step: "Final Step"
+  
+  #Developmen Page
+  developmen_title: "We are : DevelopMen"
+  
+  #team
+  team_title: "The DevelopMen Team"
+  team_founder: "Founder associate"
+  team_president: "President"
+  team_vice_president: "Executive Vice-President"
+  team_vice_president_coounsulting: "Consulting Services Vice-President"
+  team_details: "details"
+  
+  contact_title: "To contact us"
+  contact_title_text: "Here are the differents chanels of communication to contact us."
+  contact_billing: "Billing"
+  contact_billing_text: "You can fax or e-mail us your monthly bill at this e-mail / fax number."
+  contact_hiring_title: "Recrutment"
+  contact_hiring_text: "You can submit your resume at the following adress:"
+  contact_info_title: "Informations"
+  contact_info_text: "For general question about DevelopMen, you can contact us at this adress."
+  contact_phone_title: "Phones"
+  contact_phone_ext: "Ext:"
+  
+
