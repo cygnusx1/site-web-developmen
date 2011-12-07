@@ -9,6 +9,8 @@ en:
   home_box1_text2_html: "<p>Avec l'équipe DevelopMen, vos projets de moyenne à grande envergure sont entre bonnes mains.  Si la tâche se révèle trop fastidieuse, notre grand réseau de contacts nous permettra d’appeler d'autres supers héros à la rescousse.</p>"
   social_network_title: "Social networks"
   last_mandates_title: "Last mandates"
+  all_mandates: "show all"
+  no_mandates: "No mandate for the moment"
   
   #menu items - HEADER
   menu_home: "Home"

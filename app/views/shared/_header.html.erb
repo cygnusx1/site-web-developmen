@@ -5,78 +5,74 @@
 			<div class="topbar-inner">
 				<div class="menu container">
 					<div class="row">
-					<ul class="nav">
-						<li>
-							<%= link_to t("menu_home"), :root %>
-						</li>
-						<li>
-							<%= link_to t("menu_mission"), :controller=>"mission" %>
-						</li>
-						<li></li>
-						<li>
-							<%= link_to t("menu_services"), :controller=>'service'%>
-						</li>
-						<li>
-							<%= link_to t("menu_developmen"), :controller=>'developmen'%>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle"><%= t("menu_team")%></a>
-							<ul class="dropdown-menu">
-								<li>
-									<%= link_to t("menu_team_all"), :controller=>"equipe"%>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<%= link_to "Benoit", "/equipe/benoit"%>
-								</li>
-								<li>
-									<%= link_to "Stephane", "/equipe/stephane"%>
-								</li>
-								<li>
-									<%= link_to "Sylvain", "/equipe/sylvain"%>
-								</li>
-								<li>
-									<%= link_to "Sue-Marie", "/equipe/suemarie"%>
-								</li>
-								<li>
-									<%= link_to "Régis", "/equipe/regis"%>
-								</li>
-								<li>
-									<%= link_to "Frederic", "/equipe/fred"%>
-								</li>
-							</ul>
-						<li>
-							<%= link_to t("menu_contact"), :controller=>'contact'%>
-						</li>
-						<li>
-							<%= link_to t("menu_admin"), '/admin'%>
-						</li>
-						<li>
-							<% if I18n.locale == I18n.default_locale %>
-							 <%= link_to "English", :locale=>'en'%>
+						<ul class="nav">
+							<li>
+								<%= link_to image_tag("social_networking/linkedin_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
+							</li>
+							<li>
+								<%= link_to image_tag("social_networking/twitter_32.png"), "https://twitter.com/DevelopmenGC", :style=>"padding: 7px 7px 0px;"%>
+							</li>
+							<li>
+								<%= link_to image_tag("social_networking/facebook_32.png"), "http://www.facebook.com/pages/D%C3%A9velopMen/174991212590557", :style=>"padding: 7px 7px 0px;"%>
+							</li>
+							<li >
+								<%= link_to image_tag("social_networking/email_32.png"), "mailto:info@developmen.ca", :style=>"padding: 7px 7px 0px;"%>
+							</li>
+							<li style="margin-left: 40px">
+								<%= link_to t("menu_home"), :root %>
+							</li>
+							<li>
+								<%= link_to t("menu_mission"), :controller=>"mission" %>
+							</li>
+							<li>
+								<%= link_to t("menu_services"), :controller=>'service'%>
+							</li>
+							<li>
+								<%= link_to t("menu_developmen"), :controller=>'developmen'%>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle"><%= t("menu_team")%></a>
+								<ul class="dropdown-menu">
+									<li>
+										<%= link_to t("menu_team_all"), :controller=>"equipe"%>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<%= link_to "Benoit", "/equipe/benoit"%>
+									</li>
+									<li>
+										<%= link_to "Stephane", "/equipe/stephane"%>
+									</li>
+									<li>
+										<%= link_to "Sylvain", "/equipe/sylvain"%>
+									</li>
+									<li>
+										<%= link_to "Sue-Marie", "/equipe/suemarie"%>
+									</li>
+									<li>
+										<%= link_to "Régis", "/equipe/regis"%>
+									</li>
+									<li>
+										<%= link_to "Frederic", "/equipe/fred"%>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<%= link_to t("menu_contact"), :controller=>'contact'%>
+							</li>
+							<li>
+								<%= link_to t("menu_admin"), '/admin'%>
+							</li>
+							<li style="margin-left: 150px">
+								<% if I18n.locale == I18n.default_locale %>
+								<%= link_to "English", :locale=>'en'%>
 
-							 <% else %>
-							 <%= link_to "Français", :locale=>'fr'%>
+								<% else %>
+								<%= link_to "Français", :locale=>'fr'%>
 
-							 <%end%>
-							
-						</li>
-							
-						</li>
-						<li style="margin-left: 160px">
-							<%= link_to image_tag("social_networking/linkedin_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
-						</li>
-						<li>
-							<%= link_to image_tag("social_networking/twitter_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
-						</li>
-						<li>
-							<%= link_to image_tag("social_networking/facebook_32.png"), "http://www.facebook.com/pages/D%C3%A9velopMen/174991212590557", :style=>"padding: 7px 7px 0px;"%>
-						</li>
-						<li >
-							<%= link_to image_tag("social_networking/email_32.png"), "http://www.linkedin.com/company/d-velopmen", :style=>"padding: 7px 7px 0px;"%>
-						</li>
-						
-					</ul>
+								<%end%>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

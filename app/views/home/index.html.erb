@@ -10,8 +10,9 @@ Remove the if to see it in each page
 <!-- <%= image_tag("header_01.jpg", :id=>"header_img") %> -->
 <div class="span6">
 	<div class="content_text content_text_mandats">
-		<h6><%=t('last_mandates_title')%></h6>
+		<h6><%= t('last_mandates_title')%></h6>
 		<br />
+		<% if !@mandat.empty? %>
 		<% @mandat.each do |m|%>
 		<ul>
 			<li>
@@ -41,7 +42,10 @@ Remove the if to see it in each page
 			</p>
 		</ul>
 		<%end%>
-		<%= link_to "Tous les mandats", "mandats"%>
+		<%= link_to t("all_mandates"), "mandats"%>
+		<% else %>
+			<%=t("no_mandates")%>
+		<%end%>
 	</div>
 </div>
 <div class="span10">
@@ -54,7 +58,7 @@ Remove the if to see it in each page
 		</div>
 	</div>
 	<div class="content_text content_text_home">
-		<h1><%=t('social_network_title')%></h1>
+		<h1><%= t('social_network_title')%></h1>
 		<div class="row content_text_home">
 			<h6>Twitter &nbsp;<%= image_tag 'social_networking/twitter_16.png'%></h6>
 			<br />

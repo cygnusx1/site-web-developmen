@@ -42,8 +42,8 @@ class EquipeController < ApplicationController
       # Pick some fields
       fields = ['first-name', 'last-name', 'headline', 'industry', 'num-connections','educations', 'num-recommenders','recommendations-received', 'summary', 'positions','picture-url']
       
-      @profile = client.profile :fields => fields
-      @profile.recommendations_received.all.each {|rec| puts rec.recommendation_text}
+      @profile = client.profile :fields => fields 
+      #@profile.recommendations_received.all.each {|rec| puts rec.recommendation_text}
      
      
       #puts @profile

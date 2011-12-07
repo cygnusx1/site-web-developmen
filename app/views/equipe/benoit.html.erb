@@ -1,22 +1,24 @@
-  <%= javascript_include_tag "equipe" %>
-	<div class="span16 main_panel allbenoit">
-		<div class="span8 content_contact_perso"></div>
-		<div class="span8 content_contact_info benoit_border">
-				<%if flash[:notice]%>
-					
-					<div class="alert-message warning fade in" data-alert="alert">
-						<a class="close" href="#">×</a>
-						<p>
-							<span class="label important">Problem!</span>
-							<%=flash[:notice]%>
-						</p>
-					</div>
-					
-				<%end%>
+<%= javascript_include_tag "equipe" %> 
+<br>
+<br>
+<h4 style="margin-left: 30px;">Benoit Campeau - <%=t("team_founder")%></h4>
+<br>
+<br>
 
-			<p id="benoit" class="info_perso" >
-				<%=image_tag("spinner-small.gif")%>
+<div class="span16 main_panel allbenoit">
+	<div class="span8 content_contact_perso"></div>
+	<div class="span8 content_contact_info benoit_border">
+		<%if flash[:notice]%>
+		<div class="alert-message warning fade in" data-alert="alert">
+			<a class="close" href="#">×</a>
+			<p>
+				<span class="label important">Problem!</span>
+				<%= flash[:notice]%>
 			</p>
-
-		</div>			
+		</div>
+		<%end%>
+		<p id="benoit" class="info_perso" >
+			<%= image_tag("spinner-small.gif")%>
+		</p>
 	</div>
+</div>
