@@ -26,6 +26,9 @@ Trunk::Application.routes.draw do
     match 'contact' => 'contact#index'
 
     match 'mandats' => 'mandats#index'
+    ActiveAdmin.routes(self)
+    devise_for :admin_users, ActiveAdmin::Devise.config
+
   end
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -78,8 +81,8 @@ Trunk::Application.routes.draw do
   # just remember to delete public/index.html.
   match '/:locale' => "home#index"
   root :to => "home#index"
-  ActiveAdmin.routes(self)
 
+  ActiveAdmin.routes(self)
   devise_for :admin_users, ActiveAdmin::Devise.config
 
 # See how all your routes lay out with "rake routes"
