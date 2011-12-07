@@ -66,12 +66,12 @@ h4 {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	background: #222222;
-	background: -webkit-gradient(linear, 0 0, 0 left, from(#222222), to(#000000));
-	background: -webkit-linear-gradient(left,#222222, #000000);
+	background: -webkit-gradient(linear, 0 0, 0 left, from(#555555), to(#000000));
+	background: -webkit-linear-gradient(left,#555555, #000000);
 	background: -moz-linear-gradient(left,#555555, #000000);
-	background: -ms-linear-gradient(left,#222222, #000000);
-	background: -o-linear-gradient(left,#222222, #000000);
-	-pie-background: linear-gradient(left, #222222, #000000);
+	background: -ms-linear-gradient(left,#555555, #000000);
+	background: -o-linear-gradient(left,#555555, #000000);
+	-pie-background: linear-gradient(left, #555555, #000000);
 	position: relative;
 	behavior: url(/PIE.htc);
 }
