@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$(".ajaxtwitter").load('/home/ajax_twitter', function(data) {
+	$(".ajaxtwitter").load('/home/ajax_twitter',$("#locale"), function(data) {
 		$(".ajaxtwitter").html(data);
 	});
 

@@ -31,6 +31,9 @@
 				<%= alert %>
 			</p>
 			<div class="main row show-grid">
+				<form>
+					<input type="hidden" name="locale" id="locale" value=<%= I18n.locale%> />
+				</form>
 				<%= yield %>
 			</div>
 		</div>

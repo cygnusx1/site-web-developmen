@@ -3,10 +3,10 @@
 
 en:
   #home page
-  home_box1_title: "Super Hero for your I.T. projects"
-  home_box1_text_html: "<p>DevelopMen, is six partners who have made there proof since the last 20 years in realizing diffrent I.T. projects in the Montreal region.</p><pOur team is composed of key players every I.T. projects need to succeed :</p>"
-  home_box1_bullet_html: "<p><ul><li>Project / program manager</li><li>Business Analyst</li><li>I.T. Architect</li><li>Software Designer</li><li>Software Developer</li><li>System Administrator</li></ul></p>"
-  home_box1_text2_html: "<p>Avec l'équipe DevelopMen, vos projets de moyenne à grande envergure sont entre bonnes mains.  Si la tâche se révèle trop fastidieuse, notre grand réseau de contacts nous permettra d’appeler d'autres supers héros à la rescousse.</p>"
+  home_box1_title: "Super Heros for your IT projects"
+  home_box1_text_html: "<p>DévelopMen was founded by six partners who have distinguished themselves in delivering innovative solutions for complex IT projects in the Montreal region. Our team represents over 95 years of combined experience for the full life cycle of a web development project, many of which have been recognized in the industry for highly efficient execution and exceptional quality:</p>"
+  home_box1_bullet_html: "<p><ul><li>Project & Program Managers</li><li>Business Analysts</li><li>Archirtects</li><li>Designers</li><li>Developers</li><li>System administrators</li></ul></p>"
+  home_box1_text2_html: "<p>If you need more DévelopMen heros for your projects, we have a network of highly qualified resources who are ready for your call!</p>"
   social_network_title: "Social networks"
   last_mandates_title: "Last mandates"
   all_mandates: "show all"
@@ -30,7 +30,11 @@ en:
   
   #mission page
   mission_title: "Mission"
+  mission_text1: "During their twenty years in consulting, the six founding partners have seen the market mature from the placement of computing resources to the search for expertise capable of providing real added value. Their skills have been applied to projects with high technological content in the financial services, insurance, telecommunications, aerospace and manufacturing industries."
+  mission_text2: "DévelopMen listens carefully to clients’ needs. Their clients trust that they will bring the correct knowledge, skills, and experience to deliver results. They strive to provide the best resources and leadership for every project."
+  mission_text3: ""
   values_title: "Values"
+  values_text_html: "<p>Since only our clients can judge the quality of our work, at DévelopMen our guiding principal is: Excellence. Every project. Every day.</p> <p>DévelopMen is committed to delivering excellence by providing:</p>"
   
   #service page
   service_title: "Our Services"

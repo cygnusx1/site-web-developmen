@@ -33,7 +33,6 @@ class EquipeController < ApplicationController
   
   def ajax_contact
     @name = params[:name]
-    puts @name
     linkedinInfo = LinkedinApiInfo.find(1)
     linkedinCred = LinkedinCredential.find_by_name(@name)
     if !linkedinCred.nil?
@@ -41,13 +40,10 @@ class EquipeController < ApplicationController
       client.authorize_from_access(linkedinCred.acctoken, linkedinCred.accsecret)
       # Pick some fields
       fields = ['first-name', 'last-name', 'headline', 'industry', 'num-connections','educations', 'num-recommenders','recommendations-received', 'summary', 'positions','picture-url']
-      
+      puts I18n.locale.to_s + '-' + I18n.locale.to_s.capitalize
+      LinkedIn::Helpers::Request.const_set("DEFAULT_HEADERS", LinkedIn::Helpers::Request::DEFAULT_HEADERS.merge({'Accept-Language'=> I18n.locale.to_s + '-' + I18n.locale.to_s.capitalize}))
       @profile = client.profile :fields => fields 
-      #@profile.recommendations_received.all.each {|rec| puts rec.recommendation_text}
-     
-     
-      #puts @profile
-      
+           
     end
       render :layout=>false
 
