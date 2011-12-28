@@ -3,6 +3,8 @@
 
 en:
   site_title: "DévelopMen - Super Heros for your IT projects"
+  more: "-more-"
+  news: "DévelopMen site is now available in both french and english.  Have a good day."
   #home page
   home_box1_title: "Super Heros for your IT projects"
   home_box1_text_html: "<p>DévelopMen was founded by six partners who have distinguished themselves in delivering innovative solutions for complex IT projects in the Montreal region. Our team represents over 95 years of combined experience for the full life cycle of a web development project, many of which have been recognized in the industry for highly efficient execution and exceptional quality:</p>"

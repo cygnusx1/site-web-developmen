@@ -225,6 +225,8 @@ fr:
         format: "%{attribute} %{message}"
         
   site_title: "DévelopMen - Supers Héros pour vos projets T.I."
+  more: "-suite-"
+  news: "Le site de DévelopMen est maintenant disponible en anglais et en français.  Bonne journée."
 
   home_box1_title: "Supers Héros pour vos projets T.I."
   home_box1_text_html: "<p>DevelopMen, c'est d'abord six partenaires ayant fait leurs preuves depuis plus de 20 ans dans la réalisation de différents projets informatiques dans la région de Montréal.</p><p>Notre équipe compte les joueurs clés dont tout projet TI a besoin:</p>"

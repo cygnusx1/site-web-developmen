@@ -5,7 +5,7 @@
 			<div class="news">
 				<h2><%=t("footer_news")%></h2>
 				<p class="text_footer">
-					Notre nouveau site web viens de naitre!  À venir, la traduction va bon train et nous devrions pouvoir mettre notre version anglaise en ligne d'ici les prochains jours.
+					<%=t("news")%>
 				</p>
 			</div>
 		</div>
@@ -13,9 +13,9 @@
 			<div class="about">
 				<h2><%=t("footer_who")%></h2>
 				<p class="text_footer">
-					DévelopMen est une jeune entreprise dynamique formée de 6 consultants séniors en développement de projet. Notre compagnie se démarque par la qualité des consultants qui en forment le noyau. Chacun des six associés détient plus de 15 années d'ancienneté dans le domaine des T.I.
+					<%=t("developmen_text1")%>
 				</p>
-				<p class="text_footer"><%= link_to "-suite-", :controller=>"developmen"%></p>
+				<p class="text_footer"><%= link_to I18n.t("more"), :controller=>"developmen"%></p>
 			</div>
 		</div>
 		<div class="span-one-third">

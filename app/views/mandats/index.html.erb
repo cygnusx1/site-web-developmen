@@ -1,6 +1,6 @@
 <div id="mandat" class="span16">
 	<div class="img_head">
-		<%= image_tag("avis_recherche_carouselle.jpg", :width=>"960px")%>
+		<%= image_tag("avis_recherche_carouselle_" + I18n.locale.to_s + ".jpg", :width=>"960px")%>
 	</div>
 	<div class="row">
 		<div class="panel_section">
@@ -11,7 +11,7 @@
 				<hr />
 				<ul>
 					<li>
-						<span class="label success"><%= m.title%></span>
+						<span class="mandat_title"><%= m.title%></span>
 					</li>
 					<br/>
 					<br/>
