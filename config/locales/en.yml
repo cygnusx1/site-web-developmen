@@ -2,6 +2,7 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  site_title: "DévelopMen - Super Heros for your IT projects"
   #home page
   home_box1_title: "Super Heros for your IT projects"
   home_box1_text_html: "<p>DévelopMen was founded by six partners who have distinguished themselves in delivering innovative solutions for complex IT projects in the Montreal region. Our team represents over 95 years of combined experience for the full life cycle of a web development project, many of which have been recognized in the industry for highly efficient execution and exceptional quality:</p>"
@@ -35,18 +36,37 @@ en:
   mission_text3: ""
   values_title: "Values"
   values_text_html: "<p>Since only our clients can judge the quality of our work, at DévelopMen our guiding principal is: Excellence. Every project. Every day.</p> <p>DévelopMen is committed to delivering excellence by providing:</p>"
+  values_element1: "Exceptional service"
+  values_element2: "Quality resources"
+  values_element3: "Innovative solutions"
   
   #service page
   service_title: "Our Services"
-  hiring_method: "Recrutment and Hiring Method"
-  our_method: "Our Method"
+  service_text: "DévelopMen has the experts to match your needs. We offer a complete array of development resources for every phase of your project:"
+  service_experts_html: "<p><ul><li>Project & Program Managers</li><li>Business Analysts</li><li>Archirtects</li><li>Designers</li><li>Developers</li><li>System administrators</li></ul></p>"
+  service_text2: "Our consultants have in-depth experience in the following industries:"
+  service_industries_html: "<p><ul><li>Banking, Finance</li><li>Insurance</li><li>Telecommunications</li><li>Aerospace</li><li>Manufacturing</li><li>Web development</li><li>Mobile development</li></ul></p>"
+
+  recruitment: "Recruitment"
+  recruitment_text: "We make it our priority to offer the best candidates possible for your needs. For this reason, we have adoped an approach for recruitment by competency:"
+  recruitment_text2: "For DévelopMen, comptency is defined by the following 5 elements:" 
   method_first_step: "First Step"
   method_second_step: "Second Step"
   method_final_step: "Final Step"
+  recruitment_skills_html: "<p><ul><li>Knowledge: What the candidate knows </li><li>Know-how: The candidate’s experience.</li><li>Skills: What can the candidate accomplish? </li><li>Interpersonal skills: How does the candidate relate in the business environment?</li><li>Motivation : What motivates the candidate?</li></ul></p>"
+  method_first_step_text: "The first meeting with the candidate usually involves three people. The purpose is to evaluate the candidate’s knowledge and experience compared to the needs of the client.  The skills and aptitudes are not evaluated during this meeting since we want to ensure that the candidate will integrate well with the client’s team."
+  method_second_step_text: "If required, a second meeting allows us to evaluate the candidate’s knowledge with a written or oral test. A second test will allow us to evaluate the candidate’s interpersonal skills by discussing how the candidate would deal with real-life scenarios."
+  method_final_step_text: "Once the interviews and tests have been completed, a committee evaluates whether we believe the candidate is a good fit for DévelopMen.  We then discuss available projects and the key elements that would motivate the candidate to work for our client. Next, our successful candidate is proposed for an interview with our client."
+
   
   #Developmen Page
   developmen_title: "We are : DevelopMen"
-  
+  developmen_text1: "DévelopMen is a young and dynamic company founded by 6 senior consultants who have proven themselves through the quality of their mandates throughout their 20 years of experience in delivering IT projects."
+  developmen_text2: "One of our main goals is client satisfaction, which we fulfill through the quality of our resources and our personalized service."
+  developmen_text3: "Our many years of independent consulting allows us to understand the essence of application development and the needs required for the domain. We have been able to build a large network of exceptional resources who are enthusiastic to work with our team. DévelopMen is a very ambitious company with a short term objective of rapid growth."
+  developmen_text4: "We developed and implemented many large-scale and multi-platform applications for the banking and insurance sectors:"
+  developmen_text5: "Our founders distinguished themselves amongst their peers by delivering innovative solutions for complex problems that have served as strategic foundations for our clients. They have also gained the respect and esteem of many highly qualified resources."
+  developmen_achiev_html: "<p><ul><li>Online auto quotes with multiple offers</li><li>Online policy change</li><li>Multi-province and multi-company system migration</li><li>Workflow automation for agents</li></ul></p>"
   #team
   team_title: "The DevelopMen Team"
   team_founder: "Founder associate"
@@ -54,15 +74,21 @@ en:
   team_vice_president: "Executive Vice-President"
   team_vice_president_coounsulting: "Consulting Services Vice-President"
   team_details: "details"
+  stephane_expertise: "Stéphane has expertise in solution architecture."
+  sylvain_expertise: "Sylvain has expertise in the design, development and training."
+  suemarie_expertise: "Sue-Marie has expertise in project / program management."
+  benoit_expertise: "Benoit has expertise in design and web development."
+  fred_expertise: "Frédéric has expertise in IBM products."
+  regis_expertise: "Régis has expertise in the analysis, design and web development."
   
-  contact_title: "To contact us"
-  contact_title_text: "Here are the differents chanels of communication to contact us."
-  contact_billing: "Billing"
-  contact_billing_text: "You can fax or e-mail us your monthly bill at this e-mail / fax number."
-  contact_hiring_title: "Recrutment"
-  contact_hiring_text: "You can submit your resume at the following adress:"
-  contact_info_title: "Informations"
-  contact_info_text: "For general question about DevelopMen, you can contact us at this adress."
+  contact_title: "How to reach us:"
+  contact_title_text: "Here are the different ways you can reach us."
+  contact_billing: "Invoicing"
+  contact_billing_text: "To send us your monthly invoice, please fax or email your invoice to:"
+  contact_hiring_title: "Candidature"
+  contact_hiring_text: "Please submit your curriculum vitae to the following address:"
+  contact_info_title: "Information"
+  contact_info_text: "For general questions, you can reach us by email.    "
   contact_phone_title: "Phones"
   contact_phone_ext: "Ext:"
   
