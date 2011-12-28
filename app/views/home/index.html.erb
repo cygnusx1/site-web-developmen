@@ -44,7 +44,7 @@ Remove the if to see it in each page
 		<%end%>
 		<%= link_to t("all_mandates"), "mandats"%>
 		<% else %>
-			<%=t("no_mandates")%>
+		<%= t("no_mandates")%>
 		<%end%>
 	</div>
 </div>
@@ -59,6 +59,25 @@ Remove the if to see it in each page
 	</div>
 	<div class="content_text content_text_home">
 		<h1><%= t('social_network_title')%></h1>
+		<div class="row content_text_home">
+			<h6>Google+ &nbsp;<%= image_tag 'social_networking/google_plus_16.png'%></h6>
+			<br />
+		<g:plusone size="tall" annotation="inline"></g:plusone>
+		<!-- Place this render call where appropriate -->
+		<script type="text/javascript">
+			(function() {
+				var po = document.createElement('script');
+				po.type = 'text/javascript';
+				po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(po, s);
+			})();
+
+		</script>
+		</div>
+
+		<!-- Place this tag where you want the +1 button to render -->
 		<div class="row content_text_home">
 			<h6>Twitter &nbsp;<%= image_tag 'social_networking/twitter_16.png'%></h6>
 			<br />
