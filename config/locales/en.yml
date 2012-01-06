@@ -3,6 +3,19 @@
 
 en:
   site_title: "DévelopMen - Super Heros for your IT projects"
+  mission_site_title: "DévelopMen - Our mission"
+  services_site_title: "DévelopMen - Our services"
+  developmen_site_title: "DévelopMen - We are DévelopMen"
+  equipe_site_title: "DévelopMen - Our team"
+  stephane_site_title: "DévelopMen - Stéphane Desjardins - President"
+  sylvain_site_title: "DévelopMen - Sylvain Bouchard - executive Vice-president"
+  suemarie_site_title: "DévelopMen - Sue-Marie Garceau - Consulting Services Vice-president"
+  benoit_site_title: "DévelopMen - Benoit Campeau - Founder associate"
+  regis_site_title: "DévelopMen - Régis Brochu - Founder associate"
+  fred_site_title: "DévelopMen - Frédéric Lalonde - Founder associate"
+  contact_site_title: "DévelopMen - Contact"
+  mandats_site_title: "DévelopMen - Mandates"
+ 
   more: "-more-"
   news: "DévelopMen site is now available in both french and english.  Have a good day."
   #home page

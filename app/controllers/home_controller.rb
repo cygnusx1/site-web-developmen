@@ -4,6 +4,7 @@ class HomeController < ApplicationController
 
   def index
     @mandat = Mandat.find_mandats_home
+    @title = I18n.t("site_title")
 
   end
 

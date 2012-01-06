@@ -225,6 +225,18 @@ fr:
         format: "%{attribute} %{message}"
         
   site_title: "DévelopMen - Supers Héros pour vos projets T.I."
+  mission_site_title: "DévelopMen - Notre mission"
+  services_site_title: "DévelopMen - Nos services"
+  developmen_site_title: "DévelopMen - Nous sommes DévelopMen"
+  equipe_site_title: "DévelopMen - Notre équipe"
+  stephane_site_title: "DévelopMen - Stéphane Desjardins - Président"
+  sylvain_site_title: "DévelopMen - Sylvain Bouchard - Vice-président exécutif"
+  suemarie_site_title: "DévelopMen - Sue-Marie Garceau - Vice-présidente Service conseils"
+  benoit_site_title: "DévelopMen - Benoit Campeau - Associé fondateur"
+  regis_site_title: "DévelopMen - Régis Brochu - Associé fondateur"
+  fred_site_title: "DévelopMen - Frédéric Lalonde - Associé fondateur"
+  contact_site_title: "DévelopMen - Contact"
+  mandats_site_title: "DévelopMen - Mandats"
   more: "-suite-"
   news: "Le site de DévelopMen est maintenant disponible en anglais et en français.  Bonne journée."
 
