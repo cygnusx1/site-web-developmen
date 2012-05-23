@@ -241,7 +241,7 @@ fr:
   news: "Le site de DévelopMen est maintenant disponible en anglais et en français.  Bonne journée."
 
   home_box1_title: "Supers Héros pour vos projets T.I."
-  home_box1_text_html: "<p>DevelopMen, c'est d'abord six partenaires ayant fait leurs preuves depuis plus de 20 ans dans la réalisation de différents projets informatiques dans la région de Montréal.</p><p>Notre équipe compte les joueurs clés dont tout projet TI a besoin:</p>"
+  home_box1_text_html: "<p>DevelopMen, c'est d'abord quatres partenaires ayant fait leurs preuves depuis plus de 20 ans dans la réalisation de différents projets informatiques dans la région de Montréal.</p><p>Notre équipe compte les joueurs clés dont tout projet TI a besoin:</p>"
   home_box1_bullet_html: "<p><ul><li>Gestionnaires de projets / programmes</li><li>Analystes d’affaires</li><li>Architectes technologiques</li><li>Concepteurs</li><li>Développeurs</li><li>Administration de système</li></ul></p>"
   home_box1_text2_html: "<p>Avec l'équipe DevelopMen, vos projets de moyenne à grande envergure sont entre bonnes mains.  Si la tâche se révèle trop fastidieuse, notre grand réseau de contacts nous permettra d’appeler d'autres supers héros à la rescousse.</p>"
   social_network_title: "Réseaux Sociaux"
@@ -268,7 +268,7 @@ fr:
 
   #mission page
   mission_title: "Mission"
-  mission_text1: "Durant leurs vingt années d’expériences en consultation, les six associés fondateurs ont vu évoluer le marché de l’informatique d’un stade de ressources interchangeables à une recherche d’expertise capable d’apporter une vraie valeur ajoutée."
+  mission_text1: "Durant leurs vingt années d’expériences en consultation, les quatre associés fondateurs ont vu évoluer le marché de l’informatique d’un stade de ressources interchangeables à une recherche d’expertise capable d’apporter une vraie valeur ajoutée."
   mission_text2: "Depuis de nombreuses années, leurs compétences ont été mises en œuvre dans le cadre de projets à fort contenu technologique menés dans les secteurs des services financiers, assurances, télécommunications, aérospatial et manufacturier."
   mission_text3: "En accord avec les valeurs de la société, ils s'approprient les problématiques auxquelles leurs clients sont confrontés, proposent des solutions viables reposant sur les technologies les plus pertinentes et livrent les résultats attendus dans le respect des intérêts de leurs clients. Ce dispositif est le signe de la volonté de renforcer l’aptitude du Groupe T.I.6 DévelopMen à offrir à ses clients des solutions efficaces et adaptées à leurs besoins."
   values_title: "Valeurs"
@@ -299,7 +299,7 @@ fr:
   #Developmen Page
   developmen_title: "Nous sommes : DévelopMen"
   developmen_achiev_html: "<p><ul><li>Soumission d'assurance automobile offrant des offres multiples</li><li>Modification de la police d'assurance en ligne</li><li>Extension de la plateforme web pour servir différentes entreprises et provinces</li><li>Processus automatisés pour les agents</li></ul></p>"
-  developmen_text1: "DévelopMen est une jeune entreprise dynamique formée de 6 consultants séniors en développement de projet. Notre compagnie se démarque par la qualité des consultants qui en forment le noyau. Chacun des six associés détient plus de 15 années d'ancienneté dans le domaine des T.I."
+  developmen_text1: "DévelopMen est une jeune entreprise dynamique formée de 4 consultants séniors en développement de projet. Notre compagnie se démarque par la qualité des consultants qui en forment le noyau. Chacun des quatre associés détient plus de 15 années d'ancienneté dans le domaine des T.I."
   developmen_text2: "Un des buts premiers de notre compagnie est la satisfaction de nos clients par une approche axée sur la compétence des ressources et la personnalisation des services."
   developmen_text3: "Nos nombreuses années de consultation indépendante nous ont permis de maîtriser l'essence même du développement de projet et des besoins que requiert le domaine, et également de bâtir un large réseau de contacts compétents que notre association permet aujourd'hui de rassembler. Notre compagnie a beaucoup d'ambition et se donne comme objectif à court terme de croître rapidement."
   developmen_text4: "Nous avons mis en place plusieurs grandes applications multiplateformes pour le secteur bancaire et celui des assurances, y compris: "

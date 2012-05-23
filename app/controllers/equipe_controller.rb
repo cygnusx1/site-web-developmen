@@ -31,13 +31,6 @@ class EquipeController < ApplicationController
     @title = I18n.t("suemarie_site_title")
   end
 
-  def regis
-    @title = I18n.t("regis_site_title")
-  end
-
-  def fred
-    @title = I18n.t("fred_site_title")
-  end
 
   def ajax_contact
     @name = params[:name]

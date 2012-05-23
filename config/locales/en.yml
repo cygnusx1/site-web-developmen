@@ -20,7 +20,7 @@ en:
   news: "DévelopMen site is now available in both french and english.  Have a good day."
   #home page
   home_box1_title: "Super Heros for your IT projects"
-  home_box1_text_html: "<p>DévelopMen was founded by six partners who have distinguished themselves in delivering innovative solutions for complex IT projects in the Montreal region. Our team represents over 95 years of combined experience for the full life cycle of a web development project, many of which have been recognized in the industry for highly efficient execution and exceptional quality:</p>"
+  home_box1_text_html: "<p>DévelopMen was founded by four partners who have distinguished themselves in delivering innovative solutions for complex IT projects in the Montreal region. Our team represents over 95 years of combined experience for the full life cycle of a web development project, many of which have been recognized in the industry for highly efficient execution and exceptional quality:</p>"
   home_box1_bullet_html: "<p><ul><li>Project & Program Managers</li><li>Business Analysts</li><li>Archirtects</li><li>Designers</li><li>Developers</li><li>System administrators</li></ul></p>"
   home_box1_text2_html: "<p>If you need more DévelopMen heros for your projects, we have a network of highly qualified resources who are ready for your call!</p>"
   social_network_title: "Social networks"
@@ -46,7 +46,7 @@ en:
   
   #mission page
   mission_title: "Mission"
-  mission_text1: "During their twenty years in consulting, the six founding partners have seen the market mature from the placement of computing resources to the search for expertise capable of providing real added value. Their skills have been applied to projects with high technological content in the financial services, insurance, telecommunications, aerospace and manufacturing industries."
+  mission_text1: "During their twenty years in consulting, the four founding partners have seen the market mature from the placement of computing resources to the search for expertise capable of providing real added value. Their skills have been applied to projects with high technological content in the financial services, insurance, telecommunications, aerospace and manufacturing industries."
   mission_text2: "DévelopMen listens carefully to clients’ needs. Their clients trust that they will bring the correct knowledge, skills, and experience to deliver results. They strive to provide the best resources and leadership for every project."
   mission_text3: ""
   values_title: "Values"
@@ -76,7 +76,7 @@ en:
   
   #Developmen Page
   developmen_title: "We are : DevelopMen"
-  developmen_text1: "DévelopMen is a young and dynamic company founded by 6 senior consultants who have proven themselves through the quality of their mandates throughout their 20 years of experience in delivering IT projects."
+  developmen_text1: "DévelopMen is a young and dynamic company founded by 4 senior consultants who have proven themselves through the quality of their mandates throughout their 20 years of experience in delivering IT projects."
   developmen_text2: "One of our main goals is client satisfaction, which we fulfill through the quality of our resources and our personalized service."
   developmen_text3: "Our many years of independent consulting allows us to understand the essence of application development and the needs required for the domain. We have been able to build a large network of exceptional resources who are enthusiastic to work with our team. DévelopMen is a very ambitious company with a short term objective of rapid growth."
   developmen_text4: "We developed and implemented many large-scale and multi-platform applications for the banking and insurance sectors:"
