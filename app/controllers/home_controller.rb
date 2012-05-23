@@ -19,7 +19,7 @@ class HomeController < ApplicationController
       config.oauth_token_secret = twitterAccount.oauth_token_secret
     end
 
-    twittertimeline = Twitter.home_timeline
+    twittertimeline = Twitter.user_timeline
 
     @tweets = []
     twittertimeline.each do |tweet|
