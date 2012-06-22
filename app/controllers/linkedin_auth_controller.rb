@@ -22,7 +22,7 @@ class LinkedinAuthController < ApplicationController
     
   end
   
-  def frederic
+  def patrick
     
   end
   
@@ -52,10 +52,10 @@ class LinkedinAuthController < ApplicationController
       client.authorize_from_access(linkedinCred.acctoken, linkedinCred.accsecret)
     end
     
-    redirect_to  "/contact/" + linkedinCred.name
+    redirect_to  "/equipe/" + linkedinCred.name
     rescue SocketError
       flash[:notice].now = 'Unable to connect via LinkedIn'
-       redirect_to  "/contact/" + linkedinCred.name
+       redirect_to  "/equipe/" + linkedinCred.name
   end
   
   #This method get the API Key and Secret from the DB and call LinkedIn to retreive the request Key
@@ -94,7 +94,7 @@ class LinkedinAuthController < ApplicationController
     redirect_to client.request_token.authorize_url
     rescue SocketError
       flash[:notice] = 'Unable to connect via LinkedIn'
-       redirect_to  "/contact/" + name
+       redirect_to  "/equipe/" + name
     
     
   end
