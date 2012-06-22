@@ -400,7 +400,7 @@ pre {
 .regis_border {
 	border: 8px solid #14293a;
 }
-.fred_border {
+.patrick_border {
 	border: 8px solid #1a1a33;
 }
 .main_panel {
@@ -432,8 +432,8 @@ pre {
 	background-image: url('/images/regis_contact.jpg');
 	background-repeat: no-repeat;
 }
-.allfred {
-	background-image: url('/images/fred_contact.jpg');
+.allpatrick {
+	background-image: url('/images/patrick_contact.jpg');
 	background-repeat: no-repeat;
 }
 /*.benoit {
@@ -466,11 +466,11 @@ pre {
 .sylvain {
 	background-image: url('/images/sylvain_contact_thumb_over.jpg');
 }
-/*.fred {
- background-image: url('/images/fred_contact_thumb.jpg');
+/*.patrick {
+ background-image: url('/images/patrick_contact_thumb.jpg');
  }*/
-.fred {
-	background-image: url('/images/fred_contact_thumb_over.jpg');
+.patrick {
+	background-image: url('/images/patrick_contact_thumb_over.jpg');
 }
 .content_text_right {
 	color: #bbb;
