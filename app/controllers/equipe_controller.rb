@@ -31,7 +31,11 @@ class EquipeController < ApplicationController
     @title = I18n.t("suemarie_site_title")
   end
 
-
+  def patrick
+    @title = I18n.t("patrick_site_title")
+  end
+  
+  
   def ajax_contact
     @name = params[:name]
     linkedinInfo = LinkedinApiInfo.find(1)
