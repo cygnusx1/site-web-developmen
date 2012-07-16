@@ -58,9 +58,12 @@
 								<%= link_to t("menu_contact"), contact_index_path%>
 							</li>
 							<li>
+								<%= link_to t("menu_media"), '/media'%>
+							</li>							
+							<li>
 								<%= link_to t("menu_admin"), '/admin'%>
 							</li>
-							<li style="margin-left: 150px">
+		<!--					<li style="margin-left: 150px">
 								<% if I18n.locale == I18n.default_locale %>
 								<%= link_to "English", :locale=>'en'%>
 
@@ -68,7 +71,7 @@
 								<%= link_to "Français", :locale=>'fr'%>
 
 								<%end%>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 				</div>
