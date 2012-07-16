@@ -19,7 +19,8 @@ class HomeController < ApplicationController
       config.oauth_token_secret = twitterAccount.oauth_token_secret
     end
 
-    twittertimeline = Twitter.user_timeline
+    twittertimeline = Twitter.user_timeline(:count => 5)
+
 
     @tweets = []
     twittertimeline.each do |tweet|
