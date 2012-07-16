@@ -238,13 +238,14 @@ fr:
   fred_site_title: "DévelopMen - Frédéric Lalonde - Associé fondateur"
   contact_site_title: "DévelopMen - Contact"
   mandats_site_title: "DévelopMen - Mandats"
+  pourquoi_site_title: "DévelopMen - Pourquoi"
   more: "-suite-"
   news: "Le site de DévelopMen est maintenant disponible en anglais et en français.  Bonne journée."
 
   home_box1_title: "Supers Héros pour vos projets T.I."
-  home_box1_text_html: "<p>DevelopMen, c'est d'abord quatres partenaires ayant fait leurs preuves depuis plus de 20 ans dans la réalisation de différents projets informatiques dans la région de Montréal.</p><p>Notre équipe compte les joueurs clés dont tout projet TI a besoin:</p>"
+  home_box1_text_html: "<p>Groupe T.I.6 DévelopMen est une équipe dynamique constituée de professionnels ayant fait leurs preuves dans la réalisation de différents projets informatiques dans la région de Montréal.</p><p>Notre équipe compte les joueurs clés dont tout projet TI a besoin:</p>"
   home_box1_bullet_html: "<p><ul><li>Gestionnaires de projets / programmes</li><li>Analystes d’affaires</li><li>Architectes technologiques</li><li>Concepteurs</li><li>Développeurs</li><li>Administration de système</li></ul></p>"
-  home_box1_text2_html: "<p>Avec l'équipe DevelopMen, vos projets de moyenne à grande envergure sont entre bonnes mains.  Si la tâche se révèle trop fastidieuse, notre grand réseau de contacts nous permettra d’appeler d'autres supers héros à la rescousse.</p>"
+  home_box1_text2_html: "<p>Par la qualité de notre équipe et de son expérience, nous offrons des solutions complètes et professionnelles pour vos projets informatiques.<br><br>Notre équipe, ayant une expertise de plus de 20 ans dans le domaine, vous garantit un service digne de supers héros!</p>"
   social_network_title: "Réseaux Sociaux"
   last_mandates_title: "Derniers mandats"
   all_mandates: "voir tous"
@@ -260,18 +261,22 @@ fr:
   menu_team_all: "tous"
   menu_contact: "Contact"
   menu_admin: "Admin"
+  menu_media: "Média" 
   
   #Footer items
   footer_news: "Nouvelles"
-  footer_who: "Qui somme nous"
+  footer_who: "Pourquoi nous?"
   footer_social: "Social"
   footer_follow: "Suivez-nous sur :"
 
   #mission page
   mission_title: "Mission"
-  mission_text1: "Durant leurs vingt années d’expériences en consultation, les quatre associés fondateurs ont vu évoluer le marché de l’informatique d’un stade de ressources interchangeables à une recherche d’expertise capable d’apporter une vraie valeur ajoutée."
-  mission_text2: "Depuis de nombreuses années, leurs compétences ont été mises en œuvre dans le cadre de projets à fort contenu technologique menés dans les secteurs des services financiers, assurances, télécommunications, aérospatial et manufacturier."
+  mission_text2: "Lorsque votre entreprise requiert des ressources, notre équipe procède à une cueillette d’informations précises et cherche le candidat le mieux adapté à vos besoins. Bénéficiant d’un large réseau d’experts bâti au fil des ans, nous sommes en mesure de remplir notre mission en vous fournissant des professionnels hautement qualifiés. "
+  mission_text1: "Travailler avec un de nos conseillers signifie pour nos clients l’accompagnement continu et l’accès à un conseiller stratégique. Tous nos conseillers sont soutenus par la force et l’expertise de l’équipe Groupe T.I.6. DévelopMen et se voient offir encadrement et parrainage afin de favoriser leur développement professionel."
   mission_text3: "En accord avec les valeurs de la société, ils s'approprient les problématiques auxquelles leurs clients sont confrontés, proposent des solutions viables reposant sur les technologies les plus pertinentes et livrent les résultats attendus dans le respect des intérêts de leurs clients. Ce dispositif est le signe de la volonté de renforcer l’aptitude du Groupe T.I.6 DévelopMen à offrir à ses clients des solutions efficaces et adaptées à leurs besoins."
+  more_title: "Besoin de plus? Besoin d'un super héros?"
+  more_text1: "Nous avons des DévelopMen, des experts certifiés pour venir à votre rescousse!"
+  more_text2: "Que ce soit pour la prise en charge d'un projet, d'une évaluation technique, d'une proposition de développement, de conseils en gestion ou d'analyse stratégique, les DévelopMen sont les experts qui possèdent l'expérience qu'il vous faut pour sauver la situation."
   values_title: "Valeurs"
   values_text_html: "<p>Parce que nos clients doivent relever des défis liés aux enjeux de flexibilité, de budget et de qualité de services, nous nous engageons fermement sur :</p>"
   values_element1: "Service exceptionnel"
@@ -300,11 +305,12 @@ fr:
   #Developmen Page
   developmen_title: "Nous sommes : DévelopMen"
   developmen_achiev_html: "<p><ul><li>Soumission d'assurance automobile offrant des offres multiples</li><li>Modification de la police d'assurance en ligne</li><li>Extension de la plateforme web pour servir différentes entreprises et provinces</li><li>Processus automatisés pour les agents</li></ul></p>"
-  developmen_text1: "DévelopMen est une jeune entreprise dynamique formée de 4 consultants séniors en développement de projet. Notre compagnie se démarque par la qualité des consultants qui en forment le noyau. Chacun des quatre associés détient plus de 15 années d'ancienneté dans le domaine des T.I."
-  developmen_text2: "Un des buts premiers de notre compagnie est la satisfaction de nos clients par une approche axée sur la compétence des ressources et la personnalisation des services."
-  developmen_text3: "Nos nombreuses années de consultation indépendante nous ont permis de maîtriser l'essence même du développement de projet et des besoins que requiert le domaine, et également de bâtir un large réseau de contacts compétents que notre association permet aujourd'hui de rassembler. Notre compagnie a beaucoup d'ambition et se donne comme objectif à court terme de croître rapidement."
-  developmen_text4: "Nous avons mis en place plusieurs grandes applications multiplateformes pour le secteur bancaire et celui des assurances, y compris: "
-  developmen_text5: "Les fondateurs se sont distingués parmi leurs pairs grâce à des solutions innovatrices à des problèmes complexes qui ont servi de plateformes stratégiques pour nos clients. Ils ont ainsi gagné le respect et l'estime de beaucoup de ressources hautement qualifiées qui ont déjà exprimé le désir de rejoindre notre équipe."
+  developmen_text1: "Groupe T.I.6 DévelopMen est une équipe dynamique constituée de professionnels de la gestion, d'architecture et de développement de projets web."
+  developmen_text2: "Par la qualité de notre équipe et de son expérience, nous offrons des solutions complètes et professionnelles pour vos projets informatiques."
+  developmen_text3: "Des services de prise en charge, aux conseils experts et au placement, nous pouvons répondre à tous vos besoins."
+  developmen_text4: "Notre équipe, ayant une expertise de plus de 20 ans dans le domaine, vous garantit un service digne de supers héros!"
+  developmen_text5: "Nous avons mis en place plusieurs grandes applications multiplateformes pour le secteur bancaire et celui des assurances, y compris:"
+  developmen_text6: "Nos représentants se sont distingués parmi leurs pairs grâce à des solutions innovatrices à des problèmes complexes qui ont servi de plateformes stratégiques pour nos clients. Ils ont ainsi gagné le respect et l'estime de beaucoup de ressources hautement qualifiées qui ont déjà exprimé le désir de rejoindre notre équipe."
 
   #team
   team_title: "L'équipe DévelopMen"
@@ -322,7 +328,7 @@ fr:
   fred_expertise: "Frédéric possède une expertise dans les produits IBM."
   regis_expertise: "Régis possède une expertise dans l'analyse, la conception et le développement web."
 
-  
+  #Contact
   contact_title: "Pour nous joindre"
   contact_title_text: "Voici les différents moyens de communication par secteur pour nous joindre."
   contact_billing: "Facturation"
@@ -334,4 +340,14 @@ fr:
   contact_phone_title: "Téléphones"
   contact_phone_ext: "poste"
   
-
+  #Pourquoi
+  pourquoi_title: "Pourquoi faire affaire avec Groupe T.I.6 DévelopMen?"
+  pourquoi_text1: "Parce que notre équipe connaît les besoins de sa clientèle."
+  pourquoi_text2: "Mais surtout, parce que les membres de notre équipe œuvrent dans toutes les sphères du domaine du développement informatique."
+  pourquoi_text3: "Ces avantages nous permettent de cibler les besoins et d’y associer les meilleures personnes afin d’assurer la qualité des ressources mises à votre disposition."
+  
+  #Media
+  media_title: "BROCHURE DE PRÉSENTATION"
+  media_text1: "Découvrez Groupe T.I.6. DévelopMen en un clin d'oeil en consultant la brochure de présentation disponible en français."  
+  media_text2_html: "Pour en obtenir des copies imprimées, <a href='mailto:info@developmen.ca'>contactez-nous!</a>"
+  media_text3: "Brochure en français"

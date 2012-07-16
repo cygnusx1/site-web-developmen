@@ -24,6 +24,8 @@ Trunk::Application.routes.draw do
 #    match 'contact' => 'contact#index'
     resources :contact
     resources :mandats
+    resources :pourquoi
+    resources :media
     #match 'mandats' => 'mandats#index'
     ActiveAdmin.routes(self)
     devise_for :admin_users, ActiveAdmin::Devise.config
